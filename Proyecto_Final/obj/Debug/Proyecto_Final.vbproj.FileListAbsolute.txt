@@ -1,0 +1,11 @@
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\Proyecto_Final.exe.config
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\Proyecto_Final.exe
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\Proyecto_Final.pdb
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\Proyecto_Final.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Proyecto_Final.vbproj.SuggestedBindingRedirects.cache
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Proyecto_Final.Resources.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Proyecto_Final.vbproj.GenerateResource.cache
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Proyecto_Final.vbproj.CoreCompileInputs.cache
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Proyecto_Final.exe
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Proyecto_Final.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Proyecto_Final.pdb
