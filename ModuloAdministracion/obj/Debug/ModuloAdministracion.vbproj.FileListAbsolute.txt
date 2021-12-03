@@ -1,0 +1,10 @@
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloAdministracion\bin\Debug\ModuloAdministracion.dll
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloAdministracion\bin\Debug\ModuloAdministracion.pdb
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloAdministracion\bin\Debug\ModuloAdministracion.xml
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloAdministracion\obj\Debug\ModuloAdministracion.vbproj.AssemblyReference.cache
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloAdministracion\obj\Debug\ModuloAdministracion.Resources.resources
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloAdministracion\obj\Debug\ModuloAdministracion.vbproj.GenerateResource.cache
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloAdministracion\obj\Debug\ModuloAdministracion.vbproj.CoreCompileInputs.cache
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloAdministracion\obj\Debug\ModuloAdministracion.dll
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloAdministracion\obj\Debug\ModuloAdministracion.xml
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloAdministracion\obj\Debug\ModuloAdministracion.pdb

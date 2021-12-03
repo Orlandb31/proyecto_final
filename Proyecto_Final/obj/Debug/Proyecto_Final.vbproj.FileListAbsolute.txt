@@ -9,3 +9,19 @@ D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Pr
 D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Proyecto_Final.exe
 D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Proyecto_Final.xml
 D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Proyecto_Final.pdb
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\bin\Debug\Proyecto_Final.exe.config
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\bin\Debug\Proyecto_Final.exe
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\bin\Debug\Proyecto_Final.pdb
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\bin\Debug\Proyecto_Final.xml
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\bin\Debug\ModuloAdministracion.dll
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\bin\Debug\ModuloAdministracion.pdb
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\bin\Debug\ModuloAdministracion.xml
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.vbproj.AssemblyReference.cache
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.Form1.resources
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.Resources.resources
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.vbproj.GenerateResource.cache
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.vbproj.CoreCompileInputs.cache
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.vbproj.CopyComplete
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.exe
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.xml
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.pdb

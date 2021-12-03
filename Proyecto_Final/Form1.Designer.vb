@@ -22,10 +22,32 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container()
+        Me.btnconexion = New System.Windows.Forms.Button()
+        Me.SuspendLayout()
+        '
+        'btnconexion
+        '
+        Me.btnconexion.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.btnconexion.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnconexion.ForeColor = System.Drawing.Color.Black
+        Me.btnconexion.Location = New System.Drawing.Point(329, 274)
+        Me.btnconexion.Name = "btnconexion"
+        Me.btnconexion.Size = New System.Drawing.Size(120, 45)
+        Me.btnconexion.TabIndex = 0
+        Me.btnconexion.Text = "Button1"
+        Me.btnconexion.UseVisualStyleBackColor = False
+        '
+        'Form1
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.btnconexion)
+        Me.Name = "Form1"
         Me.Text = "Form1"
+        Me.ResumeLayout(False)
+
     End Sub
 
+    Friend WithEvents btnconexion As Button
 End Class
