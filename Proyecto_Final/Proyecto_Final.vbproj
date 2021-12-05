@@ -80,6 +80,18 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmcrearproducto.Designer.vb">
+      <DependentUpon>frmcrearproducto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmcrearproducto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmprincipal.Designer.vb">
+      <DependentUpon>frmprincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmprincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -99,6 +111,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmcrearproducto.resx">
+      <DependentUpon>frmcrearproducto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmprincipal.resx">
+      <DependentUpon>frmprincipal.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -123,6 +141,10 @@
     <ProjectReference Include="..\ModuloAdministracion\ModuloAdministracion.vbproj">
       <Project>{1a4e60f1-847f-4eb8-a857-72911f418612}</Project>
       <Name>ModuloAdministracion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ModuloLogica\ModuloLogica.vbproj">
+      <Project>{b1c3a468-c961-4495-925a-8b473069dbf2}</Project>
+      <Name>ModuloLogica</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

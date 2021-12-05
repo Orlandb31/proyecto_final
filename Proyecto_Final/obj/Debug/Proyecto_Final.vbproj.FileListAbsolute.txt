@@ -25,3 +25,11 @@ C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Fin
 C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.exe
 C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.xml
 C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.pdb
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.frmprincipal.resources
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.frmcrearproducto.resources
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\bin\Debug\ModuloLogica.dll
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\bin\Debug\ModuloInventario.dll
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\bin\Debug\ModuloLogica.pdb
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\bin\Debug\ModuloLogica.xml
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\bin\Debug\ModuloInventario.pdb
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\bin\Debug\ModuloInventario.xml

@@ -15,6 +15,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ModuloReportes", "ModuloRep
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ModuloAdministracion", "ModuloAdministracion\ModuloAdministracion.vbproj", "{1A4E60F1-847F-4EB8-A857-72911F418612}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ModuloLogica", "ModuloLogica\ModuloLogica.vbproj", "{B1C3A468-C961-4495-925A-8B473069DBF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{1A4E60F1-847F-4EB8-A857-72911F418612}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A4E60F1-847F-4EB8-A857-72911F418612}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A4E60F1-847F-4EB8-A857-72911F418612}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1C3A468-C961-4495-925A-8B473069DBF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1C3A468-C961-4495-925A-8B473069DBF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1C3A468-C961-4495-925A-8B473069DBF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1C3A468-C961-4495-925A-8B473069DBF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -100,5 +100,11 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ModuloAdministracion\ModuloAdministracion.vbproj">
+      <Project>{1a4e60f1-847f-4eb8-a857-72911f418612}</Project>
+      <Name>ModuloAdministracion</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

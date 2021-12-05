@@ -34,7 +34,7 @@ Partial Class Form1
         Me.btnconexion.Name = "btnconexion"
         Me.btnconexion.Size = New System.Drawing.Size(120, 45)
         Me.btnconexion.TabIndex = 0
-        Me.btnconexion.Text = "Button1"
+        Me.btnconexion.Text = " Conectar"
         Me.btnconexion.UseVisualStyleBackColor = False
         '
         'Form1

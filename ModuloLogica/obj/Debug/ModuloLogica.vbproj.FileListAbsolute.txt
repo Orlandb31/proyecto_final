@@ -1,0 +1,17 @@
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloLogica\bin\Debug\ModuloLogica.dll
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloLogica\bin\Debug\ModuloLogica.pdb
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloLogica\bin\Debug\ModuloLogica.xml
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloLogica\bin\Debug\ModuloInventario.dll
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloLogica\bin\Debug\ModuloAdministracion.dll
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloLogica\bin\Debug\ModuloInventario.pdb
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloLogica\bin\Debug\ModuloInventario.xml
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloLogica\bin\Debug\ModuloAdministracion.pdb
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloLogica\bin\Debug\ModuloAdministracion.xml
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloLogica\obj\Debug\ModuloLogica.vbproj.AssemblyReference.cache
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloLogica\obj\Debug\ModuloLogica.Resources.resources
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloLogica\obj\Debug\ModuloLogica.vbproj.GenerateResource.cache
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloLogica\obj\Debug\ModuloLogica.vbproj.CoreCompileInputs.cache
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloLogica\obj\Debug\ModuloLogica.vbproj.CopyComplete
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloLogica\obj\Debug\ModuloLogica.dll
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloLogica\obj\Debug\ModuloLogica.xml
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloLogica\obj\Debug\ModuloLogica.pdb
