@@ -1,9 +1,6 @@
 C:\Users\mathe\Source\Repos\proyecto_final\ModuloInventario\bin\Debug\ModuloInventario.dll
 C:\Users\mathe\Source\Repos\proyecto_final\ModuloInventario\bin\Debug\ModuloInventario.pdb
 C:\Users\mathe\Source\Repos\proyecto_final\ModuloInventario\bin\Debug\ModuloInventario.xml
-C:\Users\mathe\Source\Repos\proyecto_final\ModuloInventario\bin\Debug\ModuloAdministracion.dll
-C:\Users\mathe\Source\Repos\proyecto_final\ModuloInventario\bin\Debug\ModuloAdministracion.pdb
-C:\Users\mathe\Source\Repos\proyecto_final\ModuloInventario\bin\Debug\ModuloAdministracion.xml
 C:\Users\mathe\Source\Repos\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.vbproj.AssemblyReference.cache
 C:\Users\mathe\Source\Repos\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.Resources.resources
 C:\Users\mathe\Source\Repos\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.vbproj.GenerateResource.cache
@@ -12,3 +9,6 @@ C:\Users\mathe\Source\Repos\proyecto_final\ModuloInventario\obj\Debug\ModuloInve
 C:\Users\mathe\Source\Repos\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.dll
 C:\Users\mathe\Source\Repos\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.xml
 C:\Users\mathe\Source\Repos\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.pdb
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloInventario\bin\Debug\Modulo_Conexion.dll
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloInventario\bin\Debug\Modulo_Conexion.pdb
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloInventario\bin\Debug\Modulo_Conexion.xml

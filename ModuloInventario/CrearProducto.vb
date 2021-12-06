@@ -1,7 +1,5 @@
 ﻿Imports System.Data.SqlClient
-Imports ModuloAdministracion
-
-
+Imports Modulo_Conexion
 Public Class CrearProducto
     Private conectar As New CAConexion
     Private con As New SqlConnection

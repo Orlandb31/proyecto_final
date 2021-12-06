@@ -1,4 +1,5 @@
-﻿Imports ModuloLogica
+﻿Imports Modulo_Administracion
+
 Public Class frmcrearproducto
 
     Private Sub Precio_Click(sender As Object, e As EventArgs) Handles lblprecio.Click
@@ -36,9 +37,17 @@ Public Class frmcrearproducto
     End Sub
 
     Private Sub txtprecio_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtprecio.KeyPress
-        If (Char.IsDigit(e.KeyChar)) Then
+        NumerosyDecimal(txtprecio, e)
+    End Sub
+
+    Public Sub NumerosyDecimal(ByVal CajaTexto As Windows.Forms.TextBox, ByVal e As System.Windows.Forms.KeyPressEventArgs)
+        If Char.IsDigit(e.KeyChar) Then
             e.Handled = False
-        ElseIf (Char.IsControl(e.KeyChar)) Then
+        ElseIf Char.IsControl(e.KeyChar) Then
+            e.Handled = False
+        ElseIf e.KeyChar = "." And Not CajaTexto.Text.IndexOf(".") Then
+            e.Handled = True
+        ElseIf e.KeyChar = "." Then
             e.Handled = False
         Else
             e.Handled = True

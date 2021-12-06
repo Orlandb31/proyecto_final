@@ -138,17 +138,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ModuloAdministracion\ModuloAdministracion.vbproj">
-      <Project>{1a4e60f1-847f-4eb8-a857-72911f418612}</Project>
-      <Name>ModuloAdministracion</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ModuloLogica\ModuloLogica.vbproj">
-      <Project>{b1c3a468-c961-4495-925a-8b473069dbf2}</Project>
-      <Name>ModuloLogica</Name>
-    </ProjectReference>
+    <Content Include="Archivos\datacon.xml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Archivos\datacon.xml" />
+    <ProjectReference Include="..\Modulo_Administracion\Modulo_Administracion.vbproj">
+      <Project>{0cd02962-748b-4adc-9d93-a79c7f1afdfd}</Project>
+      <Name>Modulo_Administracion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Modulo_Conexion\Modulo_Conexion.vbproj">
+      <Project>{c0c6961b-4614-4a46-b5e5-fe8faec4dbe1}</Project>
+      <Name>Modulo_Conexion</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
