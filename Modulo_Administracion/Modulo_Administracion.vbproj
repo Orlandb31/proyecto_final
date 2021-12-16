@@ -80,6 +80,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="validaciones.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -101,6 +102,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ModuloClientes\ModuloClientes.vbproj">
+      <Project>{dba138f6-69ba-4dc6-aff2-da35c7c90a74}</Project>
+      <Name>ModuloClientes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ModuloFacturacion\ModuloFacturacion.vbproj">
+      <Project>{df0fdfd6-473e-4023-b6c7-09b547e6fb2e}</Project>
+      <Name>ModuloFacturacion</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ModuloInventario\ModuloInventario.vbproj">
       <Project>{b1d9d9d2-3f15-4a79-8076-a901096bbc2b}</Project>
       <Name>ModuloInventario</Name>

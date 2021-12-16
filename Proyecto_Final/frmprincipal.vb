@@ -8,4 +8,20 @@
         frmcrearproducto.WindowState = FormWindowState.Maximized
         frmcrearproducto.Show()
     End Sub
+
+    Private Sub RegistrarInventarioToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RegistrarInventarioToolStripMenuItem.Click
+
+    End Sub
+
+    Private Sub CrearClientesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CrearClientesToolStripMenuItem.Click
+        frmCrearC.MdiParent = Me
+        frmCrearC.WindowState = FormWindowState.Maximized
+        frmCrearC.Show()
+    End Sub
+
+    Private Sub FacturacionToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles FacturacionToolStripMenuItem.Click
+        frmfacturacion.MdiParent = Me
+        frmfacturacion.WindowState = FormWindowState.Maximized
+        frmfacturacion.Show()
+    End Sub
 End Class
