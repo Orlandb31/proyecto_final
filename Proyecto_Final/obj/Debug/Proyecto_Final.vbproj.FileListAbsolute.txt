@@ -63,3 +63,7 @@ C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\Proyecto_Final\obj\Debu
 C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\Proyecto_Final\bin\Debug\ModuloClientes.dll
 C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\Proyecto_Final\bin\Debug\ModuloClientes.pdb
 C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\Proyecto_Final\bin\Debug\ModuloClientes.xml
+C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\Proyecto_Final\bin\Debug\ModuloFacturacion.dll
+C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\Proyecto_Final\bin\Debug\ModuloFacturacion.pdb
+C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\Proyecto_Final\bin\Debug\ModuloFacturacion.xml
+C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.frmfactura.resources

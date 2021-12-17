@@ -1,7 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?> 
+<!--
+conexion de wencer
 <Conexion>
 	<datasorurce>TEFQVE9QLUY4TEROQ0cwXFNRTEVYUFJFU1M=</datasorurce>
 	<initialcatalog>ZG9nZ3l0ZWNoCg==</initialcatalog>
 	<usuario>c29wb3J0ZQ==</usuario>
 	<pass>TWF0aGV3czA3MTIq</pass>
+</Conexion>
+-->
+
+ <!-- conexion de luis -->
+<Conexion>
+	<datasorurce>TEFHVUVSUklMTEVSQVxTUUxFWFBSRVNT</datasorurce>
+	<initialcatalog>ZG9nZ3l0ZWNo</initialcatalog>
+	<usuario>cHJhY3RpY2FzbGFi</usuario>
+	<pass>MTk5Nw==</pass>
 </Conexion>

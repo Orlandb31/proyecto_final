@@ -17,11 +17,13 @@
         frmCrearC.MdiParent = Me
         frmCrearC.WindowState = FormWindowState.Maximized
         frmCrearC.Show()
+        frmfacturacion.Close()
     End Sub
 
     Private Sub FacturacionToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles FacturacionToolStripMenuItem.Click
         frmfacturacion.MdiParent = Me
         frmfacturacion.WindowState = FormWindowState.Maximized
         frmfacturacion.Show()
+        frmCrearC.Close()
     End Sub
 End Class

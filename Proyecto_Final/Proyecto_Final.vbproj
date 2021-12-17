@@ -95,6 +95,12 @@
     <Compile Include="frmcrearproducto.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmfactura.Designer.vb">
+      <DependentUpon>frmfactura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmfactura.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmfacturacion.Designer.vb">
       <DependentUpon>frmfacturacion.vb</DependentUpon>
     </Compile>
@@ -132,6 +138,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmcrearproducto.resx">
       <DependentUpon>frmcrearproducto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmfactura.resx">
+      <DependentUpon>frmfactura.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmfacturacion.resx">
       <DependentUpon>frmfacturacion.vb</DependentUpon>
