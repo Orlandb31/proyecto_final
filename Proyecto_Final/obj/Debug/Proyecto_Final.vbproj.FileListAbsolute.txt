@@ -67,3 +67,27 @@ C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\Proyecto_Final\bin\Debu
 C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\Proyecto_Final\bin\Debug\ModuloFacturacion.pdb
 C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\Proyecto_Final\bin\Debug\ModuloFacturacion.xml
 C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.frmfactura.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\Guna.UI2.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\Modulo_Administracion.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\Modulo_Conexion.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\ModuloClientes.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\ModuloFacturacion.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\ModuloInventario.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\Modulo_Administracion.pdb
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\Modulo_Administracion.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\Modulo_Conexion.pdb
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\Modulo_Conexion.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\ModuloClientes.pdb
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\ModuloClientes.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\ModuloFacturacion.pdb
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\ModuloFacturacion.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\ModuloInventario.pdb
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\ModuloInventario.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Proyecto_Final.vbproj.AssemblyReference.cache
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Proyecto_Final.Form1.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Proyecto_Final.frmCrearC.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Proyecto_Final.frmcrearproducto.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Proyecto_Final.frmfactura.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Proyecto_Final.frmfacturacion.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Proyecto_Final.frmprincipal.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Proyecto_Final.vbproj.CopyComplete

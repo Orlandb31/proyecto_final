@@ -12,3 +12,17 @@ C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloClientes\bin\Debu
 C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloClientes\bin\Debug\Modulo_Conexion.pdb
 C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloClientes\bin\Debug\Modulo_Conexion.xml
 C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloClientes\obj\Debug\ModuloClientes.vbproj.CopyComplete
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\bin\Debug\ModuloClientes.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\bin\Debug\ModuloClientes.pdb
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\bin\Debug\ModuloClientes.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\bin\Debug\Modulo_Conexion.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\bin\Debug\Modulo_Conexion.pdb
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\bin\Debug\Modulo_Conexion.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\obj\Debug\ModuloClientes.vbproj.AssemblyReference.cache
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\obj\Debug\ModuloClientes.Resources.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\obj\Debug\ModuloClientes.vbproj.GenerateResource.cache
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\obj\Debug\ModuloClientes.vbproj.CoreCompileInputs.cache
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\obj\Debug\ModuloClientes.vbproj.CopyComplete
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\obj\Debug\ModuloClientes.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\obj\Debug\ModuloClientes.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\obj\Debug\ModuloClientes.pdb
