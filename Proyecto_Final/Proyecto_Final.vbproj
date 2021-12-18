@@ -48,6 +48,9 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.2.5, Culture=neutral, PublicKeyToken=e4b9cdd7b4cde4b4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.2.5\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -80,6 +83,36 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmCrearC.Designer.vb">
+      <DependentUpon>frmCrearC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCrearC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmcrearproducto.Designer.vb">
+      <DependentUpon>frmcrearproducto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmcrearproducto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmfactura.Designer.vb">
+      <DependentUpon>frmfactura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmfactura.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmfacturacion.Designer.vb">
+      <DependentUpon>frmfacturacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmfacturacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmprincipal.Designer.vb">
+      <DependentUpon>frmprincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmprincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -100,6 +133,21 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmCrearC.resx">
+      <DependentUpon>frmCrearC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmcrearproducto.resx">
+      <DependentUpon>frmcrearproducto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmfactura.resx">
+      <DependentUpon>frmfactura.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmfacturacion.resx">
+      <DependentUpon>frmfacturacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmprincipal.resx">
+      <DependentUpon>frmprincipal.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -118,15 +166,20 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ModuloAdministracion\ModuloAdministracion.vbproj">
-      <Project>{1a4e60f1-847f-4eb8-a857-72911f418612}</Project>
-      <Name>ModuloAdministracion</Name>
-    </ProjectReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Archivos\datacon.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Modulo_Administracion\Modulo_Administracion.vbproj">
+      <Project>{0cd02962-748b-4adc-9d93-a79c7f1afdfd}</Project>
+      <Name>Modulo_Administracion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Modulo_Conexion\Modulo_Conexion.vbproj">
+      <Project>{c0c6961b-4614-4a46-b5e5-fe8faec4dbe1}</Project>
+      <Name>Modulo_Conexion</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

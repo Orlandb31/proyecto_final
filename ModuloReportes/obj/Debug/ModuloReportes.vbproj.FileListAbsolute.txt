@@ -1,9 +1,10 @@
-D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloReportes\bin\Debug\ModuloReportes.dll
-D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloReportes\bin\Debug\ModuloReportes.pdb
-D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloReportes\bin\Debug\ModuloReportes.xml
-D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloReportes\obj\Debug\ModuloReportes.Resources.resources
-D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloReportes\obj\Debug\ModuloReportes.vbproj.GenerateResource.cache
-D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloReportes\obj\Debug\ModuloReportes.vbproj.CoreCompileInputs.cache
-D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloReportes\obj\Debug\ModuloReportes.dll
-D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloReportes\obj\Debug\ModuloReportes.xml
-D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloReportes\obj\Debug\ModuloReportes.pdb
+C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloReportes\bin\Debug\ModuloReportes.dll
+C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloReportes\bin\Debug\ModuloReportes.pdb
+C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloReportes\bin\Debug\ModuloReportes.xml
+C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloReportes\obj\Debug\ModuloReportes.vbproj.AssemblyReference.cache
+C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloReportes\obj\Debug\ModuloReportes.Resources.resources
+C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloReportes\obj\Debug\ModuloReportes.vbproj.GenerateResource.cache
+C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloReportes\obj\Debug\ModuloReportes.vbproj.CoreCompileInputs.cache
+C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloReportes\obj\Debug\ModuloReportes.dll
+C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloReportes\obj\Debug\ModuloReportes.xml
+C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloReportes\obj\Debug\ModuloReportes.pdb

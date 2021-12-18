@@ -1,9 +1,28 @@
-D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloInventario\bin\Debug\ModuloInventario.dll
-D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloInventario\bin\Debug\ModuloInventario.pdb
-D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloInventario\bin\Debug\ModuloInventario.xml
-D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloInventario\obj\Debug\ModuloInventario.Resources.resources
-D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloInventario\obj\Debug\ModuloInventario.vbproj.GenerateResource.cache
-D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloInventario\obj\Debug\ModuloInventario.vbproj.CoreCompileInputs.cache
-D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloInventario\obj\Debug\ModuloInventario.dll
-D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloInventario\obj\Debug\ModuloInventario.xml
-D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloInventario\obj\Debug\ModuloInventario.pdb
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloInventario\bin\Debug\ModuloInventario.dll
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloInventario\bin\Debug\ModuloInventario.pdb
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloInventario\bin\Debug\ModuloInventario.xml
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.vbproj.AssemblyReference.cache
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.Resources.resources
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.vbproj.GenerateResource.cache
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.vbproj.CoreCompileInputs.cache
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.vbproj.CopyComplete
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.dll
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.xml
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.pdb
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloInventario\bin\Debug\Modulo_Conexion.dll
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloInventario\bin\Debug\Modulo_Conexion.pdb
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloInventario\bin\Debug\Modulo_Conexion.xml
+C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloInventario\bin\Debug\ModuloInventario.dll
+C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloInventario\bin\Debug\ModuloInventario.pdb
+C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloInventario\bin\Debug\ModuloInventario.xml
+C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloInventario\bin\Debug\Modulo_Conexion.dll
+C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloInventario\bin\Debug\Modulo_Conexion.pdb
+C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloInventario\bin\Debug\Modulo_Conexion.xml
+C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.vbproj.AssemblyReference.cache
+C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.Resources.resources
+C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.vbproj.GenerateResource.cache
+C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.vbproj.CoreCompileInputs.cache
+C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.vbproj.CopyComplete
+C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.dll
+C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.xml
+C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.pdb

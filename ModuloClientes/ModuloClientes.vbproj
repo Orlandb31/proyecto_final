@@ -64,7 +64,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CCProbarConexion.vb" />
+    <Compile Include="clientes.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -80,6 +80,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Validar.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -101,9 +102,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ModuloAdministracion\ModuloAdministracion.vbproj">
-      <Project>{1a4e60f1-847f-4eb8-a857-72911f418612}</Project>
-      <Name>ModuloAdministracion</Name>
+    <ProjectReference Include="..\Modulo_Conexion\Modulo_Conexion.vbproj">
+      <Project>{c0c6961b-4614-4a46-b5e5-fe8faec4dbe1}</Project>
+      <Name>Modulo_Conexion</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

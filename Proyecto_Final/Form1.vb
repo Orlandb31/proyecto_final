@@ -1,4 +1,4 @@
-﻿Imports ModuloAdministracion
+﻿Imports Modulo_Conexion
 Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
@@ -8,7 +8,8 @@ Public Class Form1
         Dim modulo As New CAProbarConexion
         Dim respuestas As Boolean = modulo.verificarconexion
         If respuestas Then
-            MsgBox("Conexion realizada con exito", MessageBoxIcon.Information)
+            frmprincipal.Show()
+            Me.Hide()
         Else
             MessageBox.Show("error al realizar la conexion", "error", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End If
