@@ -82,6 +82,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Usuario.vb" />
     <Compile Include="validaciones.vb" />
   </ItemGroup>
   <ItemGroup>
@@ -115,6 +116,10 @@
     <ProjectReference Include="..\ModuloInventario\ModuloInventario.vbproj">
       <Project>{b1d9d9d2-3f15-4a79-8076-a901096bbc2b}</Project>
       <Name>ModuloInventario</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Modulo_Conexion\Modulo_Conexion.vbproj">
+      <Project>{c0c6961b-4614-4a46-b5e5-fe8faec4dbe1}</Project>
+      <Name>Modulo_Conexion</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

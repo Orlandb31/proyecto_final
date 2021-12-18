@@ -10,9 +10,15 @@ conexion de wencer
 -->
 
  <!-- conexion de luis -->
-<Conexion>
+<!--<Conexion>
 	<datasorurce>TEFHVUVSUklMTEVSQVxTUUxFWFBSRVNT</datasorurce>
 	<initialcatalog>ZG9nZ3l0ZWNo</initialcatalog>
 	<usuario>cHJhY3RpY2FzbGFi</usuario>
 	<pass>MTk5Nw==</pass>
+</Conexion>-->
+<Conexion>
+	<datasource>UENNSUxFTklTXFNRTEVYUFJFU1M=</datasource>
+	<initialcatalog>TGFib3JhdG9yaW8z</initialcatalog>
+	<usuario>c2E=</usuario>
+	<pass>eW1jYTk5</pass>
 </Conexion>

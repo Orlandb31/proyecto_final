@@ -18,13 +18,13 @@ C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\Modulo_Conexion\obj\Deb
 C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\Modulo_Conexion\obj\Debug\Modulo_Conexion.dll
 C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\Modulo_Conexion\obj\Debug\Modulo_Conexion.xml
 C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\Modulo_Conexion\obj\Debug\Modulo_Conexion.pdb
-D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Conexion\bin\Debug\Modulo_Conexion.dll
-D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Conexion\bin\Debug\Modulo_Conexion.pdb
-D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Conexion\bin\Debug\Modulo_Conexion.xml
-D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Conexion\obj\Debug\Modulo_Conexion.vbproj.AssemblyReference.cache
-D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Conexion\obj\Debug\Modulo_Conexion.Resources.resources
-D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Conexion\obj\Debug\Modulo_Conexion.vbproj.GenerateResource.cache
-D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Conexion\obj\Debug\Modulo_Conexion.vbproj.CoreCompileInputs.cache
-D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Conexion\obj\Debug\Modulo_Conexion.dll
-D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Conexion\obj\Debug\Modulo_Conexion.xml
-D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Conexion\obj\Debug\Modulo_Conexion.pdb
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Conexion\bin\Debug\Modulo_Conexion.dll
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Conexion\bin\Debug\Modulo_Conexion.pdb
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Conexion\bin\Debug\Modulo_Conexion.xml
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Conexion\obj\Debug\Modulo_Conexion.vbproj.AssemblyReference.cache
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Conexion\obj\Debug\Modulo_Conexion.Resources.resources
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Conexion\obj\Debug\Modulo_Conexion.vbproj.GenerateResource.cache
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Conexion\obj\Debug\Modulo_Conexion.vbproj.CoreCompileInputs.cache
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Conexion\obj\Debug\Modulo_Conexion.dll
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Conexion\obj\Debug\Modulo_Conexion.xml
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Conexion\obj\Debug\Modulo_Conexion.pdb
