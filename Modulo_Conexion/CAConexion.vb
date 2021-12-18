@@ -20,7 +20,7 @@ Public Class CAConexion
                 Exit While
             End If
             mxml.Read()
-            servidorDb = DecodeBase64(mxml.ReadElementString("datasorurce"))
+            servidorDb = DecodeBase64(mxml.ReadElementString("datasource"))
             nameDb = DecodeBase64(mxml.ReadElementString("initialcatalog"))
             usuario = DecodeBase64(mxml.ReadElementString("usuario"))
             pass = DecodeBase64(mxml.ReadElementString("pass"))

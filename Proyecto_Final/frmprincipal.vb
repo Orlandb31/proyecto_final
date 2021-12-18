@@ -1,4 +1,5 @@
-﻿Public Class frmprincipal
+﻿Imports Modulo_Administracion
+Public Class frmprincipal
     Private Sub frmprincipal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
@@ -25,5 +26,38 @@
         frmfacturacion.WindowState = FormWindowState.Maximized
         frmfacturacion.Show()
         frmCrearC.Close()
+    End Sub
+
+    Private Sub btnRegistrarUsuario_Click(sender As Object, e As EventArgs) Handles btnRegistrarUsuario.Click
+        Dim nombre, apellido, correo, contrasena As String
+        Dim tipo_usuario = -1, activo As Integer
+        Dim user As New Usuario
+
+        Try
+            nombre = txtNombre.Text
+            apellido = txtApellido.Text
+            correo = txtContrasena.Text
+            contrasena = txtContrasena.Text
+
+            If rbt_Administrador.Checked Then
+                tipo_usuario = 1
+            ElseIf rbt_Inventario.Checked Then
+                tipo_usuario = 2
+            ElseIf rbt_Cajera.Checked Then
+                tipo_usuario = 3
+            End If
+
+            If String.IsNullOrEmpty(nombre) Or String.IsNullOrEmpty(apellido) Or String.IsNullOrEmpty(correo) Or String.IsNullOrEmpty(contrasena) Or tipo_usuario = -1 Then
+                MsgBox("Complete todos los campos del Formulario")
+            Else
+                MessageBox.Show(user.agregar_usuario(nombre, apellido, correo, contrasena, tipo_usuario))
+                txtNombre.ResetText()
+                txtApellido.ResetText()
+                txtCorreo.ResetText()
+                txtContrasena.ResetText()
+            End If
+        Catch ex As Exception
+
+        End Try
     End Sub
 End Class
