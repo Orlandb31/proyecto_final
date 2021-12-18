@@ -1,0 +1,9 @@
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloInventario\bin\Debug\ModuloInventario.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloInventario\bin\Debug\ModuloInventario.pdb
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloInventario\bin\Debug\ModuloInventario.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloInventario\obj\Debug\ModuloInventario.Resources.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloInventario\obj\Debug\ModuloInventario.vbproj.GenerateResource.cache
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloInventario\obj\Debug\ModuloInventario.vbproj.CoreCompileInputs.cache
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloInventario\obj\Debug\ModuloInventario.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloInventario\obj\Debug\ModuloInventario.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloInventario\obj\Debug\ModuloInventario.pdb

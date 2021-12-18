@@ -1,0 +1,14 @@
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\bin\Debug\ModuloClientes.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\bin\Debug\ModuloClientes.pdb
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\bin\Debug\ModuloClientes.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\bin\Debug\ModuloAdministracion.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\bin\Debug\ModuloAdministracion.pdb
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\bin\Debug\ModuloAdministracion.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\obj\Debug\ModuloClientes.vbproj.AssemblyReference.cache
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\obj\Debug\ModuloClientes.Resources.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\obj\Debug\ModuloClientes.vbproj.GenerateResource.cache
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\obj\Debug\ModuloClientes.vbproj.CoreCompileInputs.cache
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\obj\Debug\ModuloClientes.vbproj.CopyComplete
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\obj\Debug\ModuloClientes.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\obj\Debug\ModuloClientes.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\obj\Debug\ModuloClientes.pdb

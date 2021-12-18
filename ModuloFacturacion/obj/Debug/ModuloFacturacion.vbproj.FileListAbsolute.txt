@@ -1,0 +1,9 @@
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloFacturacion\bin\Debug\ModuloFacturacion.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloFacturacion\bin\Debug\ModuloFacturacion.pdb
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloFacturacion\bin\Debug\ModuloFacturacion.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloFacturacion\obj\Debug\ModuloFacturacion.Resources.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloFacturacion\obj\Debug\ModuloFacturacion.vbproj.GenerateResource.cache
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloFacturacion\obj\Debug\ModuloFacturacion.vbproj.CoreCompileInputs.cache
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloFacturacion\obj\Debug\ModuloFacturacion.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloFacturacion\obj\Debug\ModuloFacturacion.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloFacturacion\obj\Debug\ModuloFacturacion.pdb
