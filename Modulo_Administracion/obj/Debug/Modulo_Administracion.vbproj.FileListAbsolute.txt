@@ -38,3 +38,26 @@ C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\Modulo_Administracion\b
 C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\Modulo_Administracion\bin\Debug\ModuloClientes.xml
 C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\Modulo_Administracion\bin\Debug\ModuloFacturacion.pdb
 C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\Modulo_Administracion\bin\Debug\ModuloFacturacion.xml
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Administracion\bin\Debug\Modulo_Administracion.dll
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Administracion\bin\Debug\Modulo_Administracion.pdb
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Administracion\bin\Debug\Modulo_Administracion.xml
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Administracion\bin\Debug\ModuloClientes.dll
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Administracion\bin\Debug\ModuloFacturacion.dll
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Administracion\bin\Debug\ModuloInventario.dll
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Administracion\bin\Debug\Modulo_Conexion.dll
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Administracion\bin\Debug\ModuloClientes.pdb
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Administracion\bin\Debug\ModuloClientes.xml
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Administracion\bin\Debug\ModuloFacturacion.pdb
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Administracion\bin\Debug\ModuloFacturacion.xml
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Administracion\bin\Debug\ModuloInventario.pdb
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Administracion\bin\Debug\ModuloInventario.xml
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Administracion\bin\Debug\Modulo_Conexion.pdb
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Administracion\bin\Debug\Modulo_Conexion.xml
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Administracion\obj\Debug\Modulo_Administracion.vbproj.AssemblyReference.cache
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Administracion\obj\Debug\Modulo_Administracion.Resources.resources
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Administracion\obj\Debug\Modulo_Administracion.vbproj.GenerateResource.cache
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Administracion\obj\Debug\Modulo_Administracion.vbproj.CoreCompileInputs.cache
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Administracion\obj\Debug\Modulo_Administracion.vbproj.CopyComplete
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Administracion\obj\Debug\Modulo_Administracion.dll
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Administracion\obj\Debug\Modulo_Administracion.xml
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Administracion\obj\Debug\Modulo_Administracion.pdb

@@ -26,3 +26,17 @@ C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloInventario\obj\De
 C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.dll
 C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.xml
 C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.pdb
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloInventario\bin\Debug\ModuloInventario.dll
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloInventario\bin\Debug\ModuloInventario.pdb
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloInventario\bin\Debug\ModuloInventario.xml
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloInventario\bin\Debug\Modulo_Conexion.dll
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloInventario\bin\Debug\Modulo_Conexion.pdb
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloInventario\bin\Debug\Modulo_Conexion.xml
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.vbproj.AssemblyReference.cache
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.Resources.resources
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.vbproj.GenerateResource.cache
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.vbproj.CoreCompileInputs.cache
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.vbproj.CopyComplete
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.dll
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.xml
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloInventario\obj\Debug\ModuloInventario.pdb
