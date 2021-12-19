@@ -28,4 +28,8 @@ Public Class ModificarCliente
     Private Sub btn_elegir_Click(sender As Object, e As EventArgs) Handles btn_elegir.Click
 
     End Sub
+
+    Private Sub btn_Modificar_Click(sender As Object, e As EventArgs) Handles btn_Modificar.Click
+
+    End Sub
 End Class

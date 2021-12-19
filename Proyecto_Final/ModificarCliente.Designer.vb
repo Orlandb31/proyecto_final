@@ -26,11 +26,6 @@ Partial Class ModificarCliente
         Me.btn_elegir = New System.Windows.Forms.Button()
         Me.btn_Modificar = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.cbox_clientes = New System.Windows.Forms.ComboBox()
-        Me.btnBuscar = New System.Windows.Forms.Button()
-        Me.txtNombreBuscar = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.txtcod = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.txtnumerot = New System.Windows.Forms.TextBox()
@@ -41,6 +36,11 @@ Partial Class ModificarCliente
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.cbox_clientes = New System.Windows.Forms.ComboBox()
+        Me.btnBuscar = New System.Windows.Forms.Button()
+        Me.txtNombreBuscar = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
@@ -96,50 +96,6 @@ Partial Class ModificarCliente
         Me.GroupBox1.Size = New System.Drawing.Size(544, 390)
         Me.GroupBox1.TabIndex = 5
         Me.GroupBox1.TabStop = False
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(13, 129)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(112, 17)
-        Me.Label2.TabIndex = 4
-        Me.Label2.Text = "Elija su usuario :"
-        '
-        'cbox_clientes
-        '
-        Me.cbox_clientes.FormattingEnabled = True
-        Me.cbox_clientes.Location = New System.Drawing.Point(131, 126)
-        Me.cbox_clientes.Name = "cbox_clientes"
-        Me.cbox_clientes.Size = New System.Drawing.Size(361, 24)
-        Me.cbox_clientes.TabIndex = 3
-        '
-        'btnBuscar
-        '
-        Me.btnBuscar.Location = New System.Drawing.Point(464, 41)
-        Me.btnBuscar.Name = "btnBuscar"
-        Me.btnBuscar.Size = New System.Drawing.Size(107, 22)
-        Me.btnBuscar.TabIndex = 2
-        Me.btnBuscar.Text = "Buscar"
-        Me.btnBuscar.UseVisualStyleBackColor = True
-        '
-        'txtNombreBuscar
-        '
-        Me.txtNombreBuscar.Location = New System.Drawing.Point(178, 41)
-        Me.txtNombreBuscar.Name = "txtNombreBuscar"
-        Me.txtNombreBuscar.Size = New System.Drawing.Size(217, 22)
-        Me.txtNombreBuscar.TabIndex = 1
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(21, 44)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(131, 17)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Nombre de Usuario"
         '
         'txtcod
         '
@@ -250,6 +206,50 @@ Partial Class ModificarCliente
         Me.Label7.Size = New System.Drawing.Size(232, 28)
         Me.Label7.TabIndex = 12
         Me.Label7.Text = "Nombre de la empresa:"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.ForeColor = System.Drawing.Color.White
+        Me.Label2.Location = New System.Drawing.Point(13, 129)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(112, 17)
+        Me.Label2.TabIndex = 4
+        Me.Label2.Text = "Elija su usuario :"
+        '
+        'cbox_clientes
+        '
+        Me.cbox_clientes.FormattingEnabled = True
+        Me.cbox_clientes.Location = New System.Drawing.Point(131, 126)
+        Me.cbox_clientes.Name = "cbox_clientes"
+        Me.cbox_clientes.Size = New System.Drawing.Size(361, 24)
+        Me.cbox_clientes.TabIndex = 3
+        '
+        'btnBuscar
+        '
+        Me.btnBuscar.Location = New System.Drawing.Point(464, 41)
+        Me.btnBuscar.Name = "btnBuscar"
+        Me.btnBuscar.Size = New System.Drawing.Size(107, 22)
+        Me.btnBuscar.TabIndex = 2
+        Me.btnBuscar.Text = "Buscar"
+        Me.btnBuscar.UseVisualStyleBackColor = True
+        '
+        'txtNombreBuscar
+        '
+        Me.txtNombreBuscar.Location = New System.Drawing.Point(178, 41)
+        Me.txtNombreBuscar.Name = "txtNombreBuscar"
+        Me.txtNombreBuscar.Size = New System.Drawing.Size(217, 22)
+        Me.txtNombreBuscar.TabIndex = 1
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(21, 44)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(131, 17)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Nombre de Usuario"
         '
         'ModificarCliente
         '

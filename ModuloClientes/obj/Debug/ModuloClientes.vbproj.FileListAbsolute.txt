@@ -12,20 +12,6 @@ C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloClientes\bin\Debu
 C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloClientes\bin\Debug\Modulo_Conexion.pdb
 C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloClientes\bin\Debug\Modulo_Conexion.xml
 C:\Users\Francisco\Source\Repos\Orlandb31\proyecto_final\ModuloClientes\obj\Debug\ModuloClientes.vbproj.CopyComplete
-C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\bin\Debug\ModuloClientes.dll
-C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\bin\Debug\ModuloClientes.pdb
-C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\bin\Debug\ModuloClientes.xml
-C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\bin\Debug\Modulo_Conexion.dll
-C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\bin\Debug\Modulo_Conexion.pdb
-C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\bin\Debug\Modulo_Conexion.xml
-C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\obj\Debug\ModuloClientes.vbproj.AssemblyReference.cache
-C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\obj\Debug\ModuloClientes.Resources.resources
-C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\obj\Debug\ModuloClientes.vbproj.GenerateResource.cache
-C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\obj\Debug\ModuloClientes.vbproj.CoreCompileInputs.cache
-C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\obj\Debug\ModuloClientes.vbproj.CopyComplete
-C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\obj\Debug\ModuloClientes.dll
-C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\obj\Debug\ModuloClientes.xml
-C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\obj\Debug\ModuloClientes.pdb
 D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\bin\Debug\ModuloClientes.dll
 D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\bin\Debug\ModuloClientes.pdb
 D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\bin\Debug\ModuloClientes.xml
@@ -40,3 +26,17 @@ D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\obj\Debug\Mo
 D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\obj\Debug\ModuloClientes.dll
 D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\obj\Debug\ModuloClientes.xml
 D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloClientes\obj\Debug\ModuloClientes.pdb
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\bin\Debug\ModuloClientes.dll
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\bin\Debug\ModuloClientes.pdb
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\bin\Debug\ModuloClientes.xml
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\bin\Debug\Modulo_Conexion.dll
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\bin\Debug\Modulo_Conexion.pdb
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\bin\Debug\Modulo_Conexion.xml
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\obj\Debug\ModuloClientes.vbproj.AssemblyReference.cache
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\obj\Debug\ModuloClientes.Resources.resources
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\obj\Debug\ModuloClientes.vbproj.GenerateResource.cache
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\obj\Debug\ModuloClientes.vbproj.CoreCompileInputs.cache
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\obj\Debug\ModuloClientes.vbproj.CopyComplete
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\obj\Debug\ModuloClientes.dll
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\obj\Debug\ModuloClientes.xml
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\obj\Debug\ModuloClientes.pdb

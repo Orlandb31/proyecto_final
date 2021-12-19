@@ -23,4 +23,15 @@ Public Class CLogica
         End If
     End Function
 
+    Public Function LoginUsuarios(email As String, pass As String)
+
+
+        If LoginUser.user_login(email, pass) = 1 Then
+            Return 1
+        Else
+            Return 0
+        End If
+
+    End Function
+
 End Class
