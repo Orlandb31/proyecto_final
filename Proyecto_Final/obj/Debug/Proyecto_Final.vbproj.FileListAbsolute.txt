@@ -101,13 +101,30 @@ C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Proyecto_Final\obj\Debug\P
 C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.exe
 C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.xml
 C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.pdb
-C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\bin\Debug\Guna.UI2.dll
-C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\bin\Debug\ModuloClientes.dll
-C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\bin\Debug\ModuloFacturacion.dll
-C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\bin\Debug\ModuloClientes.pdb
-C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\bin\Debug\ModuloClientes.xml
-C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\bin\Debug\ModuloFacturacion.pdb
-C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\bin\Debug\ModuloFacturacion.xml
-C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.frmCrearC.resources
-C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.frmfactura.resources
-C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.frmfacturacion.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\Guna.UI2.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\Modulo_Administracion.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\Modulo_Conexion.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\ModuloClientes.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\ModuloFacturacion.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\ModuloInventario.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\Modulo_Administracion.pdb
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\Modulo_Administracion.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\Modulo_Conexion.pdb
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\Modulo_Conexion.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\ModuloClientes.pdb
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\ModuloClientes.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\ModuloFacturacion.pdb
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\ModuloFacturacion.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\ModuloInventario.pdb
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\ModuloInventario.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Proyecto_Final.vbproj.AssemblyReference.cache
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Proyecto_Final.Form1.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Proyecto_Final.frmcrearproducto.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Proyecto_Final.frmfactura.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Proyecto_Final.frmfacturacion.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Proyecto_Final.frmprincipal.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Proyecto_Final.frmCrearUsuario.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Proyecto_Final.frmCrearCliente.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\Bunifu_UI_v1.52.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\DevComponents.DotNetBar2.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\bin\Debug\Guna.UI.dll

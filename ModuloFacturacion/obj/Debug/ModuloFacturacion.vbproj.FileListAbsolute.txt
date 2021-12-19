@@ -26,17 +26,17 @@ C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloFacturacion\obj\Debu
 C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloFacturacion\obj\Debug\ModuloFacturacion.dll
 C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloFacturacion\obj\Debug\ModuloFacturacion.xml
 C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloFacturacion\obj\Debug\ModuloFacturacion.pdb
-C:\Users\mathe\Source\Repos\proyecto_final\ModuloFacturacion\bin\Debug\ModuloFacturacion.dll
-C:\Users\mathe\Source\Repos\proyecto_final\ModuloFacturacion\bin\Debug\ModuloFacturacion.pdb
-C:\Users\mathe\Source\Repos\proyecto_final\ModuloFacturacion\bin\Debug\ModuloFacturacion.xml
-C:\Users\mathe\Source\Repos\proyecto_final\ModuloFacturacion\bin\Debug\Modulo_Conexion.dll
-C:\Users\mathe\Source\Repos\proyecto_final\ModuloFacturacion\bin\Debug\Modulo_Conexion.pdb
-C:\Users\mathe\Source\Repos\proyecto_final\ModuloFacturacion\bin\Debug\Modulo_Conexion.xml
-C:\Users\mathe\Source\Repos\proyecto_final\ModuloFacturacion\obj\Debug\ModuloFacturacion.vbproj.AssemblyReference.cache
-C:\Users\mathe\Source\Repos\proyecto_final\ModuloFacturacion\obj\Debug\ModuloFacturacion.Resources.resources
-C:\Users\mathe\Source\Repos\proyecto_final\ModuloFacturacion\obj\Debug\ModuloFacturacion.vbproj.GenerateResource.cache
-C:\Users\mathe\Source\Repos\proyecto_final\ModuloFacturacion\obj\Debug\ModuloFacturacion.vbproj.CoreCompileInputs.cache
-C:\Users\mathe\Source\Repos\proyecto_final\ModuloFacturacion\obj\Debug\ModuloFacturacion.vbproj.CopyComplete
-C:\Users\mathe\Source\Repos\proyecto_final\ModuloFacturacion\obj\Debug\ModuloFacturacion.dll
-C:\Users\mathe\Source\Repos\proyecto_final\ModuloFacturacion\obj\Debug\ModuloFacturacion.xml
-C:\Users\mathe\Source\Repos\proyecto_final\ModuloFacturacion\obj\Debug\ModuloFacturacion.pdb
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloFacturacion\bin\Debug\ModuloFacturacion.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloFacturacion\bin\Debug\ModuloFacturacion.pdb
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloFacturacion\bin\Debug\ModuloFacturacion.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloFacturacion\bin\Debug\Modulo_Conexion.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloFacturacion\bin\Debug\Modulo_Conexion.pdb
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloFacturacion\bin\Debug\Modulo_Conexion.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloFacturacion\obj\Debug\ModuloFacturacion.vbproj.AssemblyReference.cache
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloFacturacion\obj\Debug\ModuloFacturacion.Resources.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloFacturacion\obj\Debug\ModuloFacturacion.vbproj.GenerateResource.cache
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloFacturacion\obj\Debug\ModuloFacturacion.vbproj.CoreCompileInputs.cache
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloFacturacion\obj\Debug\ModuloFacturacion.vbproj.CopyComplete
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloFacturacion\obj\Debug\ModuloFacturacion.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloFacturacion\obj\Debug\ModuloFacturacion.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\ModuloFacturacion\obj\Debug\ModuloFacturacion.pdb

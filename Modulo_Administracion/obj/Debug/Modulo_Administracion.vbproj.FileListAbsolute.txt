@@ -61,9 +61,25 @@ C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Administracion\obj\
 C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Administracion\obj\Debug\Modulo_Administracion.dll
 C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Administracion\obj\Debug\Modulo_Administracion.xml
 C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Administracion\obj\Debug\Modulo_Administracion.pdb
-C:\Users\mathe\Source\Repos\proyecto_final\Modulo_Administracion\bin\Debug\ModuloClientes.dll
-C:\Users\mathe\Source\Repos\proyecto_final\Modulo_Administracion\bin\Debug\ModuloFacturacion.dll
-C:\Users\mathe\Source\Repos\proyecto_final\Modulo_Administracion\bin\Debug\ModuloClientes.pdb
-C:\Users\mathe\Source\Repos\proyecto_final\Modulo_Administracion\bin\Debug\ModuloClientes.xml
-C:\Users\mathe\Source\Repos\proyecto_final\Modulo_Administracion\bin\Debug\ModuloFacturacion.pdb
-C:\Users\mathe\Source\Repos\proyecto_final\Modulo_Administracion\bin\Debug\ModuloFacturacion.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Administracion\bin\Debug\Modulo_Administracion.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Administracion\bin\Debug\Modulo_Administracion.pdb
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Administracion\bin\Debug\Modulo_Administracion.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Administracion\bin\Debug\ModuloClientes.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Administracion\bin\Debug\ModuloFacturacion.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Administracion\bin\Debug\ModuloInventario.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Administracion\bin\Debug\Modulo_Conexion.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Administracion\bin\Debug\ModuloClientes.pdb
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Administracion\bin\Debug\ModuloClientes.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Administracion\bin\Debug\ModuloFacturacion.pdb
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Administracion\bin\Debug\ModuloFacturacion.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Administracion\bin\Debug\ModuloInventario.pdb
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Administracion\bin\Debug\ModuloInventario.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Administracion\bin\Debug\Modulo_Conexion.pdb
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Administracion\bin\Debug\Modulo_Conexion.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Administracion\obj\Debug\Modulo_Administracion.vbproj.AssemblyReference.cache
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Administracion\obj\Debug\Modulo_Administracion.Resources.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Administracion\obj\Debug\Modulo_Administracion.vbproj.GenerateResource.cache
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Administracion\obj\Debug\Modulo_Administracion.vbproj.CoreCompileInputs.cache
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Administracion\obj\Debug\Modulo_Administracion.dll
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Administracion\obj\Debug\Modulo_Administracion.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Modulo_Administracion\obj\Debug\Modulo_Administracion.pdb
