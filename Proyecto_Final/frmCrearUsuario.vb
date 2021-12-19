@@ -33,7 +33,7 @@ Public Class frmCrearUsuario
             MsgBox("Complete todos los campos del Formulario")
         Else
             Try
-                ''  res = val.validar_Usuario(correo)
+                res = val.validar_Usuario(correo)
                 'If res Then
                 '    MsgBox("Ya existe un usuario ligado a este correo electronico, Favor Ingrese otro")
                 '    txtCorreo.ResetText()

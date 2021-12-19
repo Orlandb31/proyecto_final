@@ -3,7 +3,7 @@ Imports Modulo_Conexion
 Public Class Usuario
     Private conectar As New CAConexion
     Private con As New SqlConnection
-    Private command As SqlCommand = con.CreateCommand
+
     Public Function agregar_usuario(nombre As String, apellido As String, correo As String, contrasena As String, tipo As Integer)
         con = conectar.conexion()
         Dim command As SqlCommand = con.CreateCommand

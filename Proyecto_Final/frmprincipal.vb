@@ -55,7 +55,14 @@ Public Class frmprincipal
 
     End Sub
 
-    Private Sub grb_RegistrarUsuario_Click(sender As Object, e As EventArgs) Handles grb_RegistrarUsuario.Click
+    Private Sub ModificarClientesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ModificarClientesToolStripMenuItem.Click
+        ModificarCliente.MdiParent = Me
+        ModificarCliente.WindowState = FormWindowState.Maximized
+        ModificarCliente.Show()
 
+        frmfactura.Close()
+        frmfacturacion.Close()
+        frmCrearCliente.Close()
+        frmCrearUsuario.Close()
     End Sub
 End Class

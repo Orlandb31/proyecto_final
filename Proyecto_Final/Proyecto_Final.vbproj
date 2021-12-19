@@ -128,10 +128,17 @@
     <Compile Include="frmprincipal.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ModificarCliente.Designer.vb">
+      <DependentUpon>ModificarCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -166,6 +173,9 @@
     <EmbeddedResource Include="frmprincipal.resx">
       <DependentUpon>frmprincipal.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ModificarCliente.resx">
+      <DependentUpon>ModificarCliente.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -190,6 +200,10 @@
     <Content Include="Archivos\datacon.xml" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ModuloClientes\ModuloClientes.vbproj">
+      <Project>{dba138f6-69ba-4dc6-aff2-da35c7c90a74}</Project>
+      <Name>ModuloClientes</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Modulo_Administracion\Modulo_Administracion.vbproj">
       <Project>{0cd02962-748b-4adc-9d93-a79c7f1afdfd}</Project>
       <Name>Modulo_Administracion</Name>

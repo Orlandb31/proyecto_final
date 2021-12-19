@@ -59,7 +59,7 @@ Public Class Form1
 
         If makeLogin.LoginUsuarios(email, pass) = 1 Then
             frmprincipal.Show()
-            '' Me.Close()
+            Me.Close()
         Else
             MsgBox("Usuario y contraseña invalido")
             count = +1
