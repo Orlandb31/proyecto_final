@@ -1,6 +1,9 @@
 ﻿Imports Modulo_Administracion
 Public Class frmprincipal
     Private Sub frmprincipal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        frmCrearUsuario.MdiParent = Me
+        frmCrearUsuario.WindowState = FormWindowState.Maximized
+        frmCrearUsuario.Show()
 
     End Sub
 
@@ -8,26 +11,51 @@ Public Class frmprincipal
         frmcrearproducto.MdiParent = Me
         frmcrearproducto.WindowState = FormWindowState.Maximized
         frmcrearproducto.Show()
-    End Sub
 
-    Private Sub RegistrarInventarioToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RegistrarInventarioToolStripMenuItem.Click
-
-    End Sub
-
-    Private Sub CrearClientesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CrearClientesToolStripMenuItem.Click
-        frmCrearC.MdiParent = Me
-        frmCrearC.WindowState = FormWindowState.Maximized
-        frmCrearC.Show()
+        frmCrearUsuario.Close()
+        frmfactura.Close()
         frmfacturacion.Close()
+        frmCrearCliente.Close()
+
+    End Sub
+
+   
+    Private Sub CrearClientesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CrearClientesToolStripMenuItem.Click
+        frmCrearCliente.MdiParent = Me
+        frmCrearCliente.WindowState = FormWindowState.Maximized
+        frmCrearCliente.Show()
+
+        frmCrearUsuario.Close()
+        frmfactura.Close()
+        frmfacturacion.Close()
+
     End Sub
 
     Private Sub FacturacionToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles FacturacionToolStripMenuItem.Click
         frmfacturacion.MdiParent = Me
         frmfacturacion.WindowState = FormWindowState.Maximized
         frmfacturacion.Show()
-        frmCrearC.Close()
+
+        frmCrearCliente.Close()
+        frmCrearUsuario.Close()
+        frmfactura.Close()
+
     End Sub
 
+    Private Sub CrearClienteToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CrearClienteToolStripMenuItem.Click
+        frmCrearUsuario.MdiParent = Me
+        frmCrearUsuario.WindowState = FormWindowState.Maximized
+        frmCrearUsuario.Show()
+
+
+        frmfactura.Close()
+        frmfacturacion.Close()
+        frmCrearCliente.Close()
+
+
+    End Sub
+
+<<<<<<< HEAD
     Private Sub btnRegistrarUsuario_Click(sender As Object, e As EventArgs) Handles btnRegistrarUsuario.Click
         Dim nombre
         Dim apellido
@@ -75,5 +103,9 @@ Public Class frmprincipal
             End Try
 
         End If
+=======
+    Private Sub grb_RegistrarUsuario_Click(sender As Object, e As EventArgs) Handles grb_RegistrarUsuario.Click
+
+>>>>>>> 471c5ebaaa5328f843503c2431dcbc9b1919074b
     End Sub
 End Class

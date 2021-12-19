@@ -17,8 +17,15 @@ conexion de wencer
 	<pass>MTk5Nw==</pass>
 </Conexion>-->
 <Conexion>
+<<<<<<< HEAD
 	<datasource>UENNSUxFTklTXFNRTEVYUFJFU1M=</datasource>
 	<initialcatalog>RG9nZ3l0ZWNo</initialcatalog>
 	<usuario>c2E=</usuario>
 	<pass>eW1jYTk5</pass>
+=======
+	<datasource>T1JMQU5ETy1QQ1xTUUwyMDE3</datasource>
+	<initialcatalog>ZG9nZ3l0ZWNo</initialcatalog>
+	<usuario>cXdpemFyZA==</usuario>
+	<pass>cXdpemFyZA==</pass>
+>>>>>>> 471c5ebaaa5328f843503c2431dcbc9b1919074b
 </Conexion>

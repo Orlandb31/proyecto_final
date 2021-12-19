@@ -27,61 +27,46 @@ Partial Class frmprincipal
         Me.RegistrarInventarioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CrearClientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FacturacionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.grb_RegistrarUsuario = New Guna.UI2.WinForms.Guna2GroupBox()
-        Me.gbox_tipoUsuario = New System.Windows.Forms.GroupBox()
-        Me.rbt_Cajera = New Guna.UI2.WinForms.Guna2RadioButton()
-        Me.rbt_Inventario = New Guna.UI2.WinForms.Guna2RadioButton()
-        Me.rbt_Administrador = New Guna.UI2.WinForms.Guna2RadioButton()
-        Me.txtContrasena = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.lblContrasena = New System.Windows.Forms.Label()
-        Me.txtCorreo = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.lblCorreo = New System.Windows.Forms.Label()
-        Me.txtApellido = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.lblApellido = New System.Windows.Forms.Label()
-        Me.txtNombre = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.btnRegistrarUsuario = New Guna.UI2.WinForms.Guna2Button()
+        Me.CrearClienteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
-        Me.grb_RegistrarUsuario.SuspendLayout()
-        Me.gbox_tipoUsuario.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CrearToolStripMenuItem, Me.RegistrarInventarioToolStripMenuItem, Me.CrearClientesToolStripMenuItem, Me.FacturacionToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CrearClienteToolStripMenuItem, Me.CrearToolStripMenuItem, Me.RegistrarInventarioToolStripMenuItem, Me.CrearClientesToolStripMenuItem, Me.FacturacionToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(5, 2, 0, 2)
-        Me.MenuStrip1.Size = New System.Drawing.Size(800, 30)
+        Me.MenuStrip1.Size = New System.Drawing.Size(800, 28)
         Me.MenuStrip1.TabIndex = 1
         Me.MenuStrip1.Text = "MenuStrip1"
         '
         'CrearToolStripMenuItem
         '
         Me.CrearToolStripMenuItem.Name = "CrearToolStripMenuItem"
-        Me.CrearToolStripMenuItem.Size = New System.Drawing.Size(122, 24)
+        Me.CrearToolStripMenuItem.Size = New System.Drawing.Size(99, 20)
         Me.CrearToolStripMenuItem.Text = "Crear Producto"
         '
         'RegistrarInventarioToolStripMenuItem
         '
         Me.RegistrarInventarioToolStripMenuItem.Name = "RegistrarInventarioToolStripMenuItem"
-        Me.RegistrarInventarioToolStripMenuItem.Size = New System.Drawing.Size(152, 24)
+        Me.RegistrarInventarioToolStripMenuItem.Size = New System.Drawing.Size(121, 20)
         Me.RegistrarInventarioToolStripMenuItem.Text = "Registrar Inventario"
         '
         'CrearClientesToolStripMenuItem
         '
         Me.CrearClientesToolStripMenuItem.Name = "CrearClientesToolStripMenuItem"
-        Me.CrearClientesToolStripMenuItem.Size = New System.Drawing.Size(108, 24)
+        Me.CrearClientesToolStripMenuItem.Size = New System.Drawing.Size(87, 20)
         Me.CrearClientesToolStripMenuItem.Text = "Crear Cliente"
         '
         'FacturacionToolStripMenuItem
         '
         Me.FacturacionToolStripMenuItem.Name = "FacturacionToolStripMenuItem"
-        Me.FacturacionToolStripMenuItem.Size = New System.Drawing.Size(98, 24)
+        Me.FacturacionToolStripMenuItem.Size = New System.Drawing.Size(81, 20)
         Me.FacturacionToolStripMenuItem.Text = "Facturacion"
         '
-        'grb_RegistrarUsuario
+        'CrearClienteToolStripMenuItem
         '
         Me.grb_RegistrarUsuario.Controls.Add(Me.gbox_tipoUsuario)
         Me.grb_RegistrarUsuario.Controls.Add(Me.txtContrasena)
@@ -95,7 +80,7 @@ Partial Class frmprincipal
         Me.grb_RegistrarUsuario.Controls.Add(Me.btnRegistrarUsuario)
         Me.grb_RegistrarUsuario.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.grb_RegistrarUsuario.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(137, Byte), Integer), CType(CType(149, Byte), Integer))
-        Me.grb_RegistrarUsuario.Location = New System.Drawing.Point(119, 45)
+        Me.grb_RegistrarUsuario.Location = New System.Drawing.Point(125, 46)
         Me.grb_RegistrarUsuario.Name = "grb_RegistrarUsuario"
         Me.grb_RegistrarUsuario.ShadowDecoration.Parent = Me.grb_RegistrarUsuario
         Me.grb_RegistrarUsuario.Size = New System.Drawing.Size(555, 377)
@@ -189,7 +174,6 @@ Partial Class frmprincipal
         Me.txtContrasena.ShadowDecoration.Parent = Me.txtContrasena
         Me.txtContrasena.Size = New System.Drawing.Size(235, 41)
         Me.txtContrasena.TabIndex = 9
-        Me.txtContrasena.UseSystemPasswordChar = True
         '
         'lblContrasena
         '
@@ -322,22 +306,19 @@ Partial Class frmprincipal
         '
         'frmprincipal
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.grb_RegistrarUsuario)
+        Me.ClientSize = New System.Drawing.Size(600, 366)
         Me.Controls.Add(Me.MenuStrip1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.IsMdiContainer = True
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "frmprincipal"
         Me.Text = "frmprincipal"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
-        Me.grb_RegistrarUsuario.ResumeLayout(False)
-        Me.grb_RegistrarUsuario.PerformLayout()
-        Me.gbox_tipoUsuario.ResumeLayout(False)
-        Me.gbox_tipoUsuario.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -348,18 +329,5 @@ Partial Class frmprincipal
     Friend WithEvents RegistrarInventarioToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CrearClientesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents FacturacionToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents grb_RegistrarUsuario As Guna.UI2.WinForms.Guna2GroupBox
-    Friend WithEvents gbox_tipoUsuario As GroupBox
-    Friend WithEvents rbt_Cajera As Guna.UI2.WinForms.Guna2RadioButton
-    Friend WithEvents rbt_Inventario As Guna.UI2.WinForms.Guna2RadioButton
-    Friend WithEvents rbt_Administrador As Guna.UI2.WinForms.Guna2RadioButton
-    Friend WithEvents txtContrasena As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents lblContrasena As Label
-    Friend WithEvents txtCorreo As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents lblCorreo As Label
-    Friend WithEvents txtApellido As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents lblApellido As Label
-    Friend WithEvents txtNombre As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Label1 As Label
-    Friend WithEvents btnRegistrarUsuario As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents CrearClienteToolStripMenuItem As ToolStripMenuItem
 End Class

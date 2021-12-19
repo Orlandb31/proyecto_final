@@ -1,10 +1,10 @@
 ﻿Imports ModuloInventario
 Imports System.Data.SqlClient
 Public Class CLogica
-
+    Public LoginUser As New Login
+    Public Produsuario As New Usuario
     Public sqlcom As SqlCommand
     Public procedimiento As New CrearProducto
-    Public Produsuario As New Usuario
     Public Function Ingresarproducto(nombre As String, precio As Double, cantidad As Integer, Descripcion As String)
         sqlcom = procedimiento.insertarproducto(nombre, precio, cantidad, Descripcion)
         If sqlcom.ExecuteNonQuery() Then
