@@ -54,9 +54,6 @@ Public Class Form1
         email = txtCorreo.Text
         pass = txtpass.Text
 
-
-
-
         If makeLogin.LoginUsuarios(email, pass) = 1 Then
             frmprincipal.Show()
             Me.Close()
