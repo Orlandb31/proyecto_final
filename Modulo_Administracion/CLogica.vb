@@ -17,9 +17,9 @@ Public Class CLogica
     Public Function IngresarUsuarios(nombre As String, apellido As String, correo As String, contrasena As String, tipo As Integer)
         sqlcom = Produsuario.agregar_usuario(nombre, apellido, correo, contrasena, tipo)
         If sqlcom.ExecuteNonQuery() Then
-            Return "Producto Insertado"
+            Return "Usuario Insertado con exito"
         Else
-            Return "Error de Insersion"
+            Return "Error en la Insercion del Usuario"
         End If
     End Function
 

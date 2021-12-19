@@ -53,7 +53,7 @@ Partial Class frmprincipal
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(5, 2, 0, 2)
-        Me.MenuStrip1.Size = New System.Drawing.Size(800, 28)
+        Me.MenuStrip1.Size = New System.Drawing.Size(800, 30)
         Me.MenuStrip1.TabIndex = 1
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -189,6 +189,7 @@ Partial Class frmprincipal
         Me.txtContrasena.ShadowDecoration.Parent = Me.txtContrasena
         Me.txtContrasena.Size = New System.Drawing.Size(235, 41)
         Me.txtContrasena.TabIndex = 9
+        Me.txtContrasena.UseSystemPasswordChar = True
         '
         'lblContrasena
         '

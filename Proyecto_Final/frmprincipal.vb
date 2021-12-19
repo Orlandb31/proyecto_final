@@ -29,13 +29,18 @@ Public Class frmprincipal
     End Sub
 
     Private Sub btnRegistrarUsuario_Click(sender As Object, e As EventArgs) Handles btnRegistrarUsuario.Click
-        Dim nombre, apellido, correo, contrasena As String
-        Dim tipo_usuario = -1, estado As Integer
+        Dim nombre
+        Dim apellido
+        Dim correo
+        Dim contrasena
+        Dim tipo_usuario = -1
         Dim user As New CLogica
+        Dim val As New validaciones
+        Dim res As Boolean
 
         nombre = txtNombre.Text
         apellido = txtApellido.Text
-        correo = txtContrasena.Text
+        correo = txtCorreo.Text
         contrasena = txtContrasena.Text
 
             If rbt_Administrador.Checked Then
@@ -50,11 +55,21 @@ Public Class frmprincipal
                 MsgBox("Complete todos los campos del Formulario")
             Else
             Try
-                MessageBox.Show(user.IngresarUsuarios(nombre, apellido, correo, contrasena, tipo_usuario))
-                txtNombre.ResetText()
-                txtApellido.ResetText()
-                txtCorreo.ResetText()
-                txtContrasena.ResetText()
+                res = val.validar_Usuario(correo)
+                If Not res Then
+                    MsgBox("Ya existe un usuario ligado a este correo electronico, Favor Ingrese otro")
+                    txtCorreo.ResetText()
+                Else
+                    MessageBox.Show(user.IngresarUsuarios(nombre, apellido, correo, contrasena, tipo_usuario))
+                    txtNombre.ResetText()
+                    txtApellido.ResetText()
+                    txtCorreo.ResetText()
+                    txtContrasena.ResetText()
+                    rbt_Administrador.Checked = False
+                    rbt_Cajera.Checked = False
+                    rbt_Inventario.Checked = False
+                End If
+
             Catch ex As Exception
                 MessageBox.Show("Error al insertar Usuario " + ex.Message)
             End Try

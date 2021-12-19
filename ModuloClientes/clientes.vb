@@ -18,22 +18,25 @@ Public Class clientes
         con.Close()
     End Function
 
-    Public Function Consultar_cliente(nombre As Integer)
+    Public Function Consultar_cliente(nombre As String)
         Dim Glcommand As New SqlCommand
         Dim dtcuentas As New DataTable
         Dim sqlDa As SqlDataAdapter
 
-        Glcommand.Connection = conectar.conexion()
+        con = conectar.conexion()
+        con.Open()
+
+        Glcommand.Connection = con
         Glcommand.CommandText = "Mostrar_clientes"
         Glcommand.Parameters.AddWithValue("@nombre", nombre)
         Glcommand.CommandTimeout = 0
         Glcommand.CommandType = CommandType.StoredProcedure
 
-        conectar.conexion.Open()
         Glcommand.ExecuteNonQuery()
         sqlDa = New SqlDataAdapter(Glcommand)
 
         sqlDa.Fill(dtcuentas)
         Return dtcuentas
+        con.Close()
     End Function
 End Class
