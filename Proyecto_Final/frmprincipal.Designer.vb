@@ -95,7 +95,7 @@ Partial Class frmprincipal
         Me.grb_RegistrarUsuario.Controls.Add(Me.btnRegistrarUsuario)
         Me.grb_RegistrarUsuario.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.grb_RegistrarUsuario.ForeColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(137, Byte), Integer), CType(CType(149, Byte), Integer))
-        Me.grb_RegistrarUsuario.Location = New System.Drawing.Point(125, 46)
+        Me.grb_RegistrarUsuario.Location = New System.Drawing.Point(119, 45)
         Me.grb_RegistrarUsuario.Name = "grb_RegistrarUsuario"
         Me.grb_RegistrarUsuario.ShadowDecoration.Parent = Me.grb_RegistrarUsuario
         Me.grb_RegistrarUsuario.Size = New System.Drawing.Size(555, 377)

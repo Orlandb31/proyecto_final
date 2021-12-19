@@ -101,3 +101,4 @@ C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Proyecto_Final\obj\Debug\P
 C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.exe
 C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.xml
 C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.pdb
+C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.ModificarCliente.resources

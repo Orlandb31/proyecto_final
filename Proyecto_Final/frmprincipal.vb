@@ -30,14 +30,13 @@ Public Class frmprincipal
 
     Private Sub btnRegistrarUsuario_Click(sender As Object, e As EventArgs) Handles btnRegistrarUsuario.Click
         Dim nombre, apellido, correo, contrasena As String
-        Dim tipo_usuario = -1, activo As Integer
-        Dim user As New Usuario
+        Dim tipo_usuario = -1, estado As Integer
+        Dim user As New CLogica
 
-        Try
-            nombre = txtNombre.Text
-            apellido = txtApellido.Text
-            correo = txtContrasena.Text
-            contrasena = txtContrasena.Text
+        nombre = txtNombre.Text
+        apellido = txtApellido.Text
+        correo = txtContrasena.Text
+        contrasena = txtContrasena.Text
 
             If rbt_Administrador.Checked Then
                 tipo_usuario = 1
@@ -50,14 +49,16 @@ Public Class frmprincipal
             If String.IsNullOrEmpty(nombre) Or String.IsNullOrEmpty(apellido) Or String.IsNullOrEmpty(correo) Or String.IsNullOrEmpty(contrasena) Or tipo_usuario = -1 Then
                 MsgBox("Complete todos los campos del Formulario")
             Else
-                MessageBox.Show(user.agregar_usuario(nombre, apellido, correo, contrasena, tipo_usuario))
+            Try
+                MessageBox.Show(user.IngresarUsuarios(nombre, apellido, correo, contrasena, tipo_usuario))
                 txtNombre.ResetText()
                 txtApellido.ResetText()
                 txtCorreo.ResetText()
                 txtContrasena.ResetText()
-            End If
-        Catch ex As Exception
+            Catch ex As Exception
+                MessageBox.Show("Error al insertar Usuario " + ex.Message)
+            End Try
 
-        End Try
+        End If
     End Sub
 End Class
