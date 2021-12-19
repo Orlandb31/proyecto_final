@@ -15,7 +15,32 @@
       "ProjectGuid": "1a4e60f1-847f-4eb8-a857-72911f418612",
       "DisplayName": "ModuloAdministracion",
       "ColorIndex": 1
+    },
+    "0cd02962-748b-4adc-9d93-a79c7f1afdfd": {
+      "ProjectGuid": "0cd02962-748b-4adc-9d93-a79c7f1afdfd",
+      "DisplayName": "Modulo_Administracion",
+      "ColorIndex": 2
+    },
+    "c0c6961b-4614-4a46-b5e5-fe8faec4dbe1": {
+      "ProjectGuid": "c0c6961b-4614-4a46-b5e5-fe8faec4dbe1",
+      "DisplayName": "Modulo_Conexion",
+      "ColorIndex": 3
+    },
+    "b0d904e2-6448-4de4-a75e-e9e5fce6c903": {
+      "ProjectGuid": "b0d904e2-6448-4de4-a75e-e9e5fce6c903",
+      "DisplayName": "Mylogin",
+      "ColorIndex": 4
+    },
+    "df0fdfd6-473e-4023-b6c7-09b547e6fb2e": {
+      "ProjectGuid": "df0fdfd6-473e-4023-b6c7-09b547e6fb2e",
+      "DisplayName": "ModuloFacturacion",
+      "ColorIndex": 5
+    },
+    "b1d9d9d2-3f15-4a79-8076-a901096bbc2b": {
+      "ProjectGuid": "b1d9d9d2-3f15-4a79-8076-a901096bbc2b",
+      "DisplayName": "ModuloInventario",
+      "ColorIndex": 6
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 7
 }

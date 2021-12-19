@@ -48,6 +48,15 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\DS8_LAB3\DS8_LAB3\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2">
+      <HintPath>..\..\DS8_LAB3\DS8_LAB3\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\DS8_LAB3\DS8_LAB3\Guna.UI.dll</HintPath>
+    </Reference>
     <Reference Include="Guna.UI2, Version=2.0.2.5, Culture=neutral, PublicKeyToken=e4b9cdd7b4cde4b4, processorArchitecture=MSIL">
       <HintPath>..\packages\Guna.UI2.WinForms.2.0.2.5\lib\net40\Guna.UI2.dll</HintPath>
     </Reference>
@@ -83,10 +92,16 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCrearC.Designer.vb">
-      <DependentUpon>frmCrearC.vb</DependentUpon>
+    <Compile Include="frmCrearUsuario.Designer.vb">
+      <DependentUpon>frmCrearUsuario.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmCrearC.vb">
+    <Compile Include="frmCrearUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCrearCliente.Designer.vb">
+      <DependentUpon>frmCrearCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCrearCliente.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmcrearproducto.Designer.vb">
@@ -133,8 +148,11 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmCrearC.resx">
-      <DependentUpon>frmCrearC.vb</DependentUpon>
+    <EmbeddedResource Include="frmCrearUsuario.resx">
+      <DependentUpon>frmCrearUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCrearCliente.resx">
+      <DependentUpon>frmCrearCliente.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmcrearproducto.resx">
       <DependentUpon>frmcrearproducto.vb</DependentUpon>

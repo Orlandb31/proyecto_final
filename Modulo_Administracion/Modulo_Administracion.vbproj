@@ -67,6 +67,7 @@
     <Compile Include="ClaseClientes.vb" />
     <Compile Include="ClassFacturas.vb" />
     <Compile Include="CLogica.vb" />
+    <Compile Include="Login.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
