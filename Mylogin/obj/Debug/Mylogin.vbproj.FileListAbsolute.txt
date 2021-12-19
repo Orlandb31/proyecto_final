@@ -1,0 +1,32 @@
+C:\Users\S-kill\Desktop\My_App\Mylogin\Mylogin\Mylogin\bin\Debug\Mylogin.exe.config
+C:\Users\S-kill\Desktop\My_App\Mylogin\Mylogin\Mylogin\bin\Debug\Mylogin.exe
+C:\Users\S-kill\Desktop\My_App\Mylogin\Mylogin\Mylogin\bin\Debug\Mylogin.pdb
+C:\Users\S-kill\Desktop\My_App\Mylogin\Mylogin\Mylogin\bin\Debug\Mylogin.xml
+C:\Users\S-kill\Desktop\My_App\Mylogin\Mylogin\Mylogin\obj\Debug\Mylogin.vbprojAssemblyReference.cache
+C:\Users\S-kill\Desktop\My_App\Mylogin\Mylogin\Mylogin\obj\Debug\Mylogin.Form1.resources
+C:\Users\S-kill\Desktop\My_App\Mylogin\Mylogin\Mylogin\obj\Debug\Mylogin.Resources.resources
+C:\Users\S-kill\Desktop\My_App\Mylogin\Mylogin\Mylogin\obj\Debug\Mylogin.vbproj.GenerateResource.cache
+C:\Users\S-kill\Desktop\My_App\Mylogin\Mylogin\Mylogin\obj\Debug\Mylogin.exe
+C:\Users\S-kill\Desktop\My_App\Mylogin\Mylogin\Mylogin\obj\Debug\Mylogin.xml
+C:\Users\S-kill\Desktop\My_App\Mylogin\Mylogin\Mylogin\obj\Debug\Mylogin.pdb
+C:\Users\S-kill\Desktop\My_App\Mylogin\Mylogin\Mylogin\bin\Debug\Guna.UI.dll
+C:\Users\S-kill\Desktop\My_App\Mylogin\Mylogin\Mylogin\bin\Debug\Guna.UI.pdb
+C:\Users\S-kill\Desktop\My_App\Mylogin\Mylogin\Mylogin\obj\Debug\Mylogin.vbproj.CopyComplete
+C:\Users\S-kill\Desktop\My_App\Mylogin\Mylogin\Mylogin\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\S-kill\Desktop\My_App\Mylogin\Mylogin\Mylogin\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\S-kill\Desktop\My_App\Mylogin\Mylogin\Mylogin\bin\Debug\DevComponents.DotNetBar2.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Mylogin\Mylogin\bin\Debug\Mylogin.exe.config
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Mylogin\Mylogin\bin\Debug\Mylogin.exe
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Mylogin\Mylogin\bin\Debug\Mylogin.pdb
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Mylogin\Mylogin\bin\Debug\Mylogin.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Mylogin\Mylogin\bin\Debug\DevComponents.DotNetBar2.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Mylogin\Mylogin\bin\Debug\Guna.UI.pdb
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Mylogin\Mylogin\obj\Debug\Mylogin.vbproj.AssemblyReference.cache
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Mylogin\Mylogin\obj\Debug\Mylogin.vbproj.SuggestedBindingRedirects.cache
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Mylogin\Mylogin\obj\Debug\Mylogin.Resources.resources
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Mylogin\Mylogin\obj\Debug\Mylogin.vbproj.GenerateResource.cache
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Mylogin\Mylogin\obj\Debug\Mylogin.vbproj.CoreCompileInputs.cache
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Mylogin\Mylogin\obj\Debug\Mylogin.exe
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Mylogin\Mylogin\obj\Debug\Mylogin.xml
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Mylogin\Mylogin\obj\Debug\Mylogin.pdb
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Mylogin\Mylogin\obj\Debug\Mylogin.Login.resources
