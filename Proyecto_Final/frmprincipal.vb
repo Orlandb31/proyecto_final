@@ -60,4 +60,8 @@ Public Class frmprincipal
 
         End Try
     End Sub
+
+    Private Sub grb_RegistrarUsuario_Click(sender As Object, e As EventArgs) Handles grb_RegistrarUsuario.Click
+
+    End Sub
 End Class

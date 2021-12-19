@@ -26,3 +26,17 @@ C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\obj\Debug\M
 C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\obj\Debug\ModuloClientes.dll
 C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\obj\Debug\ModuloClientes.xml
 C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\ModuloClientes\obj\Debug\ModuloClientes.pdb
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloClientes\bin\Debug\ModuloClientes.dll
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloClientes\bin\Debug\ModuloClientes.pdb
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloClientes\bin\Debug\ModuloClientes.xml
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloClientes\bin\Debug\Modulo_Conexion.dll
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloClientes\bin\Debug\Modulo_Conexion.pdb
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloClientes\bin\Debug\Modulo_Conexion.xml
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloClientes\obj\Debug\ModuloClientes.vbproj.AssemblyReference.cache
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloClientes\obj\Debug\ModuloClientes.Resources.resources
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloClientes\obj\Debug\ModuloClientes.vbproj.GenerateResource.cache
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloClientes\obj\Debug\ModuloClientes.vbproj.CoreCompileInputs.cache
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloClientes\obj\Debug\ModuloClientes.vbproj.CopyComplete
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloClientes\obj\Debug\ModuloClientes.dll
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloClientes\obj\Debug\ModuloClientes.xml
+C:\Users\mathe\Source\Repos\proyecto_final\ModuloClientes\obj\Debug\ModuloClientes.pdb

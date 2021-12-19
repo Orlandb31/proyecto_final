@@ -61,3 +61,9 @@ C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Administracion\obj\
 C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Administracion\obj\Debug\Modulo_Administracion.dll
 C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Administracion\obj\Debug\Modulo_Administracion.xml
 C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Modulo_Administracion\obj\Debug\Modulo_Administracion.pdb
+C:\Users\mathe\Source\Repos\proyecto_final\Modulo_Administracion\bin\Debug\ModuloClientes.dll
+C:\Users\mathe\Source\Repos\proyecto_final\Modulo_Administracion\bin\Debug\ModuloFacturacion.dll
+C:\Users\mathe\Source\Repos\proyecto_final\Modulo_Administracion\bin\Debug\ModuloClientes.pdb
+C:\Users\mathe\Source\Repos\proyecto_final\Modulo_Administracion\bin\Debug\ModuloClientes.xml
+C:\Users\mathe\Source\Repos\proyecto_final\Modulo_Administracion\bin\Debug\ModuloFacturacion.pdb
+C:\Users\mathe\Source\Repos\proyecto_final\Modulo_Administracion\bin\Debug\ModuloFacturacion.xml

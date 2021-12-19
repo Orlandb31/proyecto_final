@@ -101,3 +101,13 @@ C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Proyecto_Final\obj\Debug\P
 C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.exe
 C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.xml
 C:\Users\Pc Milenis\source\repos\PFDS8\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.pdb
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\bin\Debug\Guna.UI2.dll
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\bin\Debug\ModuloClientes.dll
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\bin\Debug\ModuloFacturacion.dll
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\bin\Debug\ModuloClientes.pdb
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\bin\Debug\ModuloClientes.xml
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\bin\Debug\ModuloFacturacion.pdb
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\bin\Debug\ModuloFacturacion.xml
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.frmCrearC.resources
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.frmfactura.resources
+C:\Users\mathe\Source\Repos\proyecto_final\Proyecto_Final\obj\Debug\Proyecto_Final.frmfacturacion.resources

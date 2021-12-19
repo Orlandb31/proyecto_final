@@ -22,159 +22,182 @@ Partial Class frmcrearproducto
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
         Me.txtnombre = New System.Windows.Forms.TextBox()
-        Me.lblprecio = New System.Windows.Forms.Label()
         Me.txtprecio = New System.Windows.Forms.TextBox()
         Me.Numeric1 = New System.Windows.Forms.NumericUpDown()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Label4 = New System.Windows.Forms.Label()
         Me.txtdescripcion = New System.Windows.Forms.TextBox()
+        Me.Guna2Panel1 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.btncrear = New Guna.UI2.WinForms.Guna2Button()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
         CType(Me.Numeric1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.GroupBox1.SuspendLayout()
+        Me.Guna2Panel1.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei", 13.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(268, 55)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(236, 31)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = "CREAR PRODUCTO"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(168, 41)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(189, 27)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "Nombre-Producto"
         '
         'txtnombre
         '
         Me.txtnombre.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtnombre.Location = New System.Drawing.Point(144, 95)
+        Me.txtnombre.Location = New System.Drawing.Point(344, 116)
         Me.txtnombre.Name = "txtnombre"
-        Me.txtnombre.Size = New System.Drawing.Size(226, 34)
+        Me.txtnombre.Size = New System.Drawing.Size(350, 34)
         Me.txtnombre.TabIndex = 2
-        '
-        'lblprecio
-        '
-        Me.lblprecio.AutoSize = True
-        Me.lblprecio.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblprecio.Location = New System.Drawing.Point(225, 160)
-        Me.lblprecio.Name = "lblprecio"
-        Me.lblprecio.Size = New System.Drawing.Size(71, 27)
-        Me.lblprecio.TabIndex = 3
-        Me.lblprecio.Text = "Precio"
         '
         'txtprecio
         '
         Me.txtprecio.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtprecio.Location = New System.Drawing.Point(144, 206)
+        Me.txtprecio.Location = New System.Drawing.Point(344, 186)
         Me.txtprecio.Name = "txtprecio"
-        Me.txtprecio.Size = New System.Drawing.Size(221, 34)
+        Me.txtprecio.Size = New System.Drawing.Size(350, 34)
         Me.txtprecio.TabIndex = 4
         '
         'Numeric1
         '
         Me.Numeric1.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Numeric1.Location = New System.Drawing.Point(144, 334)
+        Me.Numeric1.Location = New System.Drawing.Point(344, 249)
         Me.Numeric1.Maximum = New Decimal(New Integer() {1000, 0, 0, 0})
         Me.Numeric1.Minimum = New Decimal(New Integer() {1, 0, 0, 0})
         Me.Numeric1.Name = "Numeric1"
-        Me.Numeric1.Size = New System.Drawing.Size(221, 34)
+        Me.Numeric1.Size = New System.Drawing.Size(350, 34)
         Me.Numeric1.TabIndex = 5
         Me.Numeric1.Value = New Decimal(New Integer() {1, 0, 0, 0})
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(150, 277)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(207, 27)
-        Me.Label3.TabIndex = 6
-        Me.Label3.Text = "Cantidad-Disponible"
-        '
-        'GroupBox1
-        '
-        Me.GroupBox1.Controls.Add(Me.txtdescripcion)
-        Me.GroupBox1.Controls.Add(Me.Label4)
-        Me.GroupBox1.Controls.Add(Me.txtnombre)
-        Me.GroupBox1.Controls.Add(Me.Label3)
-        Me.GroupBox1.Controls.Add(Me.Label2)
-        Me.GroupBox1.Controls.Add(Me.Numeric1)
-        Me.GroupBox1.Controls.Add(Me.txtprecio)
-        Me.GroupBox1.Controls.Add(Me.lblprecio)
-        Me.GroupBox1.Location = New System.Drawing.Point(130, 132)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(544, 552)
-        Me.GroupBox1.TabIndex = 7
-        Me.GroupBox1.TabStop = False
-        '
-        'Button1
-        '
-        Me.Button1.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(311, 703)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(184, 48)
-        Me.Button1.TabIndex = 8
-        Me.Button1.Text = "Crear Producto"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(139, 396)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(252, 27)
-        Me.Label4.TabIndex = 7
-        Me.Label4.Text = "Descripcion del Producto"
         '
         'txtdescripcion
         '
         Me.txtdescripcion.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtdescripcion.Location = New System.Drawing.Point(128, 455)
+        Me.txtdescripcion.Location = New System.Drawing.Point(344, 322)
         Me.txtdescripcion.Name = "txtdescripcion"
-        Me.txtdescripcion.Size = New System.Drawing.Size(263, 34)
+        Me.txtdescripcion.Size = New System.Drawing.Size(350, 34)
         Me.txtdescripcion.TabIndex = 8
+        '
+        'Guna2Panel1
+        '
+        Me.Guna2Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(35, Byte), Integer))
+        Me.Guna2Panel1.Controls.Add(Me.txtdescripcion)
+        Me.Guna2Panel1.Controls.Add(Me.Label6)
+        Me.Guna2Panel1.Controls.Add(Me.btncrear)
+        Me.Guna2Panel1.Controls.Add(Me.txtnombre)
+        Me.Guna2Panel1.Controls.Add(Me.txtprecio)
+        Me.Guna2Panel1.Controls.Add(Me.Numeric1)
+        Me.Guna2Panel1.Controls.Add(Me.Label7)
+        Me.Guna2Panel1.Controls.Add(Me.Label8)
+        Me.Guna2Panel1.Controls.Add(Me.Label9)
+        Me.Guna2Panel1.Controls.Add(Me.Label10)
+        Me.Guna2Panel1.Location = New System.Drawing.Point(170, 111)
+        Me.Guna2Panel1.Margin = New System.Windows.Forms.Padding(4)
+        Me.Guna2Panel1.Name = "Guna2Panel1"
+        Me.Guna2Panel1.ShadowDecoration.Parent = Me.Guna2Panel1
+        Me.Guna2Panel1.Size = New System.Drawing.Size(737, 521)
+        Me.Guna2Panel1.TabIndex = 9
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Label6.Location = New System.Drawing.Point(53, 122)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(188, 28)
+        Me.Label6.TabIndex = 10
+        Me.Label6.Text = "Nombre-Producto:"
+        '
+        'btncrear
+        '
+        Me.btncrear.BorderColor = System.Drawing.Color.White
+        Me.btncrear.CheckedState.Parent = Me.btncrear
+        Me.btncrear.CustomImages.Parent = Me.btncrear
+        Me.btncrear.DisabledState.BorderColor = System.Drawing.Color.DarkGray
+        Me.btncrear.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray
+        Me.btncrear.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer), CType(CType(169, Byte), Integer))
+        Me.btncrear.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
+        Me.btncrear.DisabledState.Parent = Me.btncrear
+        Me.btncrear.FillColor = System.Drawing.Color.SpringGreen
+        Me.btncrear.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btncrear.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.btncrear.HoverState.Parent = Me.btncrear
+        Me.btncrear.Location = New System.Drawing.Point(245, 448)
+        Me.btncrear.Margin = New System.Windows.Forms.Padding(4)
+        Me.btncrear.Name = "btncrear"
+        Me.btncrear.ShadowDecoration.Parent = Me.btncrear
+        Me.btncrear.Size = New System.Drawing.Size(240, 55)
+        Me.btncrear.TabIndex = 9
+        Me.btncrear.Text = "Crear"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Label7.Location = New System.Drawing.Point(53, 322)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(253, 28)
+        Me.Label7.TabIndex = 3
+        Me.Label7.Text = "Descripcion Del Producto"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Label8.Location = New System.Drawing.Point(53, 249)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(205, 28)
+        Me.Label8.TabIndex = 2
+        Me.Label8.Text = "Cantidad-Disponible"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Label9.Location = New System.Drawing.Point(53, 186)
+        Me.Label9.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(71, 28)
+        Me.Label9.TabIndex = 1
+        Me.Label9.Text = "Precio"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Segoe UI", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Label10.Location = New System.Drawing.Point(219, 28)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(308, 54)
+        Me.Label10.TabIndex = 0
+        Me.Label10.Text = "Crear Producto"
         '
         'frmcrearproducto
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(834, 784)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.GroupBox1)
-        Me.Controls.Add(Me.Label1)
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(54, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(1160, 804)
+        Me.Controls.Add(Me.Guna2Panel1)
         Me.Name = "frmcrearproducto"
         Me.Text = "frmcrearproducto"
         CType(Me.Numeric1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
+        Me.Guna2Panel1.ResumeLayout(False)
+        Me.Guna2Panel1.PerformLayout()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
     Friend WithEvents txtnombre As TextBox
-    Friend WithEvents lblprecio As Label
     Friend WithEvents txtprecio As TextBox
     Friend WithEvents Numeric1 As NumericUpDown
-    Friend WithEvents Label3 As Label
-    Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents Button1 As Button
     Friend WithEvents txtdescripcion As TextBox
-    Friend WithEvents Label4 As Label
+    Friend WithEvents Guna2Panel1 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Label6 As Label
+    Friend WithEvents btncrear As Guna.UI2.WinForms.Guna2Button
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label10 As Label
 End Class
