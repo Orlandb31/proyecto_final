@@ -9,16 +9,10 @@ Public Class frmCrearUsuario
         Dim user As New CLogica
         Dim val As New validaciones
         Dim res As Boolean
-
-
-
         nombre = txtNombre.Text
         apellido = txtApellido.Text
         correo = txtContrasena.Text
         contrasena = txtContrasena.Text
-
-
-
         If rbt_Administrador.Checked Then
             tipo_usuario = 1
         ElseIf rbt_Inventario.Checked Then
@@ -26,9 +20,6 @@ Public Class frmCrearUsuario
         ElseIf rbt_Cajera.Checked Then
             tipo_usuario = 3
         End If
-
-
-
         If String.IsNullOrEmpty(nombre) Or String.IsNullOrEmpty(apellido) Or String.IsNullOrEmpty(correo) Or String.IsNullOrEmpty(contrasena) Or tipo_usuario = -1 Then
             MsgBox("Complete todos los campos del Formulario")
         Else
@@ -47,16 +38,9 @@ Public Class frmCrearUsuario
                 rbt_Cajera.Checked = False
                 rbt_Inventario.Checked = False
                 'End If
-
-
-
             Catch ex As Exception
                 MessageBox.Show("Error al insertar Usuario " + ex.Message)
             End Try
-
-
-
         End If
-
     End Sub
 End Class

@@ -28,22 +28,9 @@ Public Class Login
                     Return respuesta
                 End If
             End With
-            ''con.Close()
-
         Catch ex As Exception
             Return respuesta
         End Try
-
-
-        'Dim command As SqlCommand = con.CreateCommand
-        'con.Open()
-        'command
-        'command.Parameters.Add(New SqlParameter("@email", email))
-        'command.Parameters.Add(New SqlParameter("@pass", pass))
-        'command.Parameters.Add("@result", SqlDbType.Int).Direction = ParameterDirection.Output
-
-        'Return command.ExecuteScalar()
-
 
     End Function
 

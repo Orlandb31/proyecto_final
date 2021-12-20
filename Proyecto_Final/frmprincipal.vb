@@ -55,7 +55,7 @@ Public Class frmprincipal
 
     End Sub
 
-    Private Sub ModificarClientesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ModificarClientesToolStripMenuItem.Click
+    Private Sub ModificarClientesToolStripMenuItem_Click(sender As Object, e As EventArgs)
         ModificarCliente.MdiParent = Me
         ModificarCliente.WindowState = FormWindowState.Maximized
         ModificarCliente.Show()
@@ -64,5 +64,9 @@ Public Class frmprincipal
         frmfacturacion.Close()
         frmCrearCliente.Close()
         frmCrearUsuario.Close()
+    End Sub
+
+    Private Sub RegistrarInventarioToolStripMenuItem_Click(sender As Object, e As EventArgs)
+
     End Sub
 End Class

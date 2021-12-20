@@ -41,6 +41,7 @@ Partial Class ModificarCliente
         Me.btnBuscar = New System.Windows.Forms.Button()
         Me.txtNombreBuscar = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
@@ -56,7 +57,7 @@ Partial Class ModificarCliente
         Me.Panel1.Controls.Add(Me.btnBuscar)
         Me.Panel1.Controls.Add(Me.txtNombreBuscar)
         Me.Panel1.Controls.Add(Me.Label1)
-        Me.Panel1.Location = New System.Drawing.Point(84, 36)
+        Me.Panel1.Location = New System.Drawing.Point(84, 61)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(603, 654)
         Me.Panel1.TabIndex = 0
@@ -251,12 +252,25 @@ Partial Class ModificarCliente
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Nombre de Usuario"
         '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Segoe UI", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.Label8.Location = New System.Drawing.Point(221, 9)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(346, 54)
+        Me.Label8.TabIndex = 2
+        Me.Label8.Text = "Modificar Cliente"
+        '
         'ModificarCliente
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(54, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(800, 746)
+        Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Panel1)
         Me.Name = "ModificarCliente"
         Me.Text = "ModificarCliente"
@@ -265,6 +279,7 @@ Partial Class ModificarCliente
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -287,4 +302,5 @@ Partial Class ModificarCliente
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label7 As Label
+    Friend WithEvents Label8 As Label
 End Class

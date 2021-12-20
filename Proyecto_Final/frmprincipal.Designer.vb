@@ -25,7 +25,6 @@ Partial Class frmprincipal
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.CrearClienteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CrearToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.RegistrarInventarioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CrearClientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FacturacionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
@@ -34,7 +33,7 @@ Partial Class frmprincipal
         'MenuStrip1
         '
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CrearClienteToolStripMenuItem, Me.CrearToolStripMenuItem, Me.RegistrarInventarioToolStripMenuItem, Me.CrearClientesToolStripMenuItem, Me.FacturacionToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CrearClienteToolStripMenuItem, Me.CrearToolStripMenuItem, Me.CrearClientesToolStripMenuItem, Me.FacturacionToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(5, 2, 0, 2)
@@ -51,14 +50,8 @@ Partial Class frmprincipal
         'CrearToolStripMenuItem
         '
         Me.CrearToolStripMenuItem.Name = "CrearToolStripMenuItem"
-        Me.CrearToolStripMenuItem.Size = New System.Drawing.Size(122, 24)
-        Me.CrearToolStripMenuItem.Text = "Crear Producto"
-        '
-        'RegistrarInventarioToolStripMenuItem
-        '
-        Me.RegistrarInventarioToolStripMenuItem.Name = "RegistrarInventarioToolStripMenuItem"
-        Me.RegistrarInventarioToolStripMenuItem.Size = New System.Drawing.Size(152, 24)
-        Me.RegistrarInventarioToolStripMenuItem.Text = "Registrar Inventario"
+        Me.CrearToolStripMenuItem.Size = New System.Drawing.Size(266, 24)
+        Me.CrearToolStripMenuItem.Text = "Crear Producto y Registrar Inventario"
         '
         'CrearClientesToolStripMenuItem
         '
@@ -94,7 +87,6 @@ Partial Class frmprincipal
 
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents CrearToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents RegistrarInventarioToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CrearClientesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents FacturacionToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CrearClienteToolStripMenuItem As ToolStripMenuItem
