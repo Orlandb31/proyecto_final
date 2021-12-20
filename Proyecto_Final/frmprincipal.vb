@@ -55,7 +55,7 @@ Public Class frmprincipal
 
     End Sub
 
-    Private Sub ModificarClientesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ModificarClientesToolStripMenuItem.Click
+    Private Sub ModificarClientesToolStripMenuItem_Click_1(sender As Object, e As EventArgs) Handles ModificarClientesToolStripMenuItem.Click
         ModificarCliente.MdiParent = Me
         ModificarCliente.WindowState = FormWindowState.Maximized
         ModificarCliente.Show()
