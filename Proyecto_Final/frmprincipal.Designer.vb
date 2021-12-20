@@ -28,17 +28,16 @@ Partial Class frmprincipal
         Me.RegistrarInventarioToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CrearClientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FacturacionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ModificarClientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CrearClienteToolStripMenuItem, Me.CrearToolStripMenuItem, Me.RegistrarInventarioToolStripMenuItem, Me.CrearClientesToolStripMenuItem, Me.FacturacionToolStripMenuItem, Me.ModificarClientesToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CrearClienteToolStripMenuItem, Me.CrearToolStripMenuItem, Me.RegistrarInventarioToolStripMenuItem, Me.CrearClientesToolStripMenuItem, Me.FacturacionToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(7, 2, 0, 2)
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(5, 2, 0, 2)
         Me.MenuStrip1.Size = New System.Drawing.Size(800, 28)
         Me.MenuStrip1.TabIndex = 1
         Me.MenuStrip1.Text = "MenuStrip1"
@@ -46,7 +45,8 @@ Partial Class frmprincipal
         'CrearClienteToolStripMenuItem
         '
         Me.CrearClienteToolStripMenuItem.Name = "CrearClienteToolStripMenuItem"
-        Me.CrearClienteToolStripMenuItem.Size = New System.Drawing.Size(14, 24)
+        Me.CrearClienteToolStripMenuItem.Size = New System.Drawing.Size(116, 24)
+        Me.CrearClienteToolStripMenuItem.Text = "Crear  Usuario"
         '
         'CrearToolStripMenuItem
         '
@@ -71,12 +71,6 @@ Partial Class frmprincipal
         Me.FacturacionToolStripMenuItem.Name = "FacturacionToolStripMenuItem"
         Me.FacturacionToolStripMenuItem.Size = New System.Drawing.Size(98, 24)
         Me.FacturacionToolStripMenuItem.Text = "Facturacion"
-        '
-        'ModificarClientesToolStripMenuItem
-        '
-        Me.ModificarClientesToolStripMenuItem.Name = "ModificarClientesToolStripMenuItem"
-        Me.ModificarClientesToolStripMenuItem.Size = New System.Drawing.Size(141, 24)
-        Me.ModificarClientesToolStripMenuItem.Text = "Modificar clientes"
         '
         'frmprincipal
         '
@@ -104,5 +98,4 @@ Partial Class frmprincipal
     Friend WithEvents CrearClientesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents FacturacionToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CrearClienteToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ModificarClientesToolStripMenuItem As ToolStripMenuItem
 End Class
