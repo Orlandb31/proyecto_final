@@ -201,9 +201,9 @@ Partial Class ModificarCliente
         '
         'btnBuscar
         '
-        Me.btnBuscar.Location = New System.Drawing.Point(464, 41)
+        Me.btnBuscar.Location = New System.Drawing.Point(464, 36)
         Me.btnBuscar.Name = "btnBuscar"
-        Me.btnBuscar.Size = New System.Drawing.Size(107, 22)
+        Me.btnBuscar.Size = New System.Drawing.Size(107, 32)
         Me.btnBuscar.TabIndex = 2
         Me.btnBuscar.Text = "Buscar"
         Me.btnBuscar.UseVisualStyleBackColor = True
