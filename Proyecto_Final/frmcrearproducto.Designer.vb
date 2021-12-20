@@ -120,12 +120,12 @@ Partial Class frmcrearproducto
         Me.btncrear.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btncrear.ForeColor = System.Drawing.Color.Black
         Me.btncrear.HoverState.Parent = Me.btncrear
-<<<<<<< HEAD
+
         Me.btncrear.Location = New System.Drawing.Point(237, 422)
         Me.btncrear.Margin = New System.Windows.Forms.Padding(4)
-=======
+
         Me.btncrear.Location = New System.Drawing.Point(184, 364)
->>>>>>> 03d4baddb0a4266dabe7c44fc554a66299013bed
+
         Me.btncrear.Name = "btncrear"
         Me.btncrear.ShadowDecoration.Parent = Me.btncrear
         Me.btncrear.Size = New System.Drawing.Size(180, 45)
@@ -164,22 +164,20 @@ Partial Class frmcrearproducto
         Me.Label9.Size = New System.Drawing.Size(58, 21)
         Me.Label9.TabIndex = 1
         Me.Label9.Text = "Precio"
-        '
-        'Label10
-        '
+
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Segoe UI", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.SystemColors.ControlLight
-<<<<<<< HEAD
+
         Me.Label10.Location = New System.Drawing.Point(4, 31)
         Me.Label10.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(728, 54)
-=======
+
         Me.Label10.Location = New System.Drawing.Point(164, 23)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(248, 45)
->>>>>>> 03d4baddb0a4266dabe7c44fc554a66299013bed
+
         Me.Label10.TabIndex = 0
         Me.Label10.Text = "Crear Producto y Registrar Inventario"
         '

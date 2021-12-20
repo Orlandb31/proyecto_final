@@ -25,11 +25,7 @@ Public Class frmCrearUsuario
         Else
             Try
                 res = val.validar_Usuario(correo)
-<<<<<<< HEAD
-                'If res Then
-                '    MsgBox("Ya existe un usuario ligado a este correo electronico, Favor Ingrese otro")
-                '    txtCorreo.ResetText()
-                'Else
+
                 MessageBox.Show(user.IngresarUsuarios(nombre, apellido, correo, contrasena, tipo_usuario))
                 txtNombre.ResetText()
                 txtApellido.ResetText()
@@ -42,8 +38,8 @@ Public Class frmCrearUsuario
             Catch ex As Exception
                 MessageBox.Show("Error al insertar Usuario " + ex.Message)
             End Try
-=======
-                If Not res Then
+
+            If Not res Then
                     MsgBox("Ya existe un usuario ligado a este correo electronico, Favor Ingrese otro")
                     txtCorreo.ResetText()
                 Else
@@ -57,11 +53,7 @@ Public Class frmCrearUsuario
                     rbt_Inventario.Checked = False
                 End If
 
-            Catch ex As Exception
-                MessageBox.Show("Error al insertar Usuario " + ex.Message)
-            End Try
 
->>>>>>> 03d4baddb0a4266dabe7c44fc554a66299013bed
         End If
     End Sub
 End Class

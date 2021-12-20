@@ -73,3 +73,4 @@ D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Pr
 D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Proyecto_Final.exe
 D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Proyecto_Final.xml
 D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Proyecto_Final.pdb
+D:\@Orlando\UTP\DS8 2021\Laboratorios\Proyecto_Final\Proyecto_Final\obj\Debug\Proyecto_Final.vbproj.CopyComplete
