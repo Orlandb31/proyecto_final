@@ -27,13 +27,18 @@ Partial Class frmprincipal
         Me.CrearToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CrearClientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FacturacionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ModificarClientesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
         '
         Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
+<<<<<<< HEAD
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CrearClienteToolStripMenuItem, Me.CrearToolStripMenuItem, Me.CrearClientesToolStripMenuItem, Me.FacturacionToolStripMenuItem})
+=======
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CrearClienteToolStripMenuItem, Me.CrearToolStripMenuItem, Me.RegistrarInventarioToolStripMenuItem, Me.CrearClientesToolStripMenuItem, Me.FacturacionToolStripMenuItem, Me.ModificarClientesToolStripMenuItem})
+>>>>>>> 03d4baddb0a4266dabe7c44fc554a66299013bed
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(5, 2, 0, 2)
@@ -65,6 +70,12 @@ Partial Class frmprincipal
         Me.FacturacionToolStripMenuItem.Size = New System.Drawing.Size(98, 24)
         Me.FacturacionToolStripMenuItem.Text = "Facturacion"
         '
+        'ModificarClientesToolStripMenuItem
+        '
+        Me.ModificarClientesToolStripMenuItem.Name = "ModificarClientesToolStripMenuItem"
+        Me.ModificarClientesToolStripMenuItem.Size = New System.Drawing.Size(139, 24)
+        Me.ModificarClientesToolStripMenuItem.Text = "ModificarClientes"
+        '
         'frmprincipal
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -90,4 +101,5 @@ Partial Class frmprincipal
     Friend WithEvents CrearClientesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents FacturacionToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CrearClienteToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents ModificarClientesToolStripMenuItem As ToolStripMenuItem
 End Class
