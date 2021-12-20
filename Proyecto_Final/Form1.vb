@@ -3,6 +3,7 @@ Imports Modulo_Administracion
 Imports System.Net.Mail
 Imports System.Net
 Public Class Form1
+    Dim count As Integer = 0
     Dim randomCode As String
     Public Shared txtmail As String
     Dim makeLogin As New Login
@@ -54,35 +55,55 @@ Public Class Form1
         Try
 
             Dim email, pass As String
-            Dim count As Integer
+
             Dim resOk As DataTable
             Dim vUserInfo As UserData = New UserData()
             email = txtCorreo.Text
             pass = txtpass.Text
-
-            resOk = makeLogin.user_login(email, pass)
-
-
-            If resOk.Rows.Count > 0 Then
-                For Each dr As System.Data.DataRow In resOk.Rows
-                    Dim vtryInt As Integer
-                    Integer.TryParse(dr("id_usuario").ToString(), vtryInt)
-                    vUserInfo.ID = vtryInt
-                    vUserInfo.Email = dr("correo").ToString()
-                    vUserInfo.Tipo = dr("tipo_usuario").ToString()
-
-
-                Next
-                ID = vUserInfo.ID
-                ModuleUser.Email = vUserInfo.Email.ToString()
-                Tipo = vUserInfo.Tipo.ToString()
-                Console.WriteLine(vUserInfo)
-                Dim fp As New frmprincipal()
-                fp.Show()
+            If email = String.Empty Or pass = String.Empty Then
+                MsgBox("Por favor llene los campos")
             Else
-                MsgBox("Usuario y contraseña invalido")
-                count = +1
+                resOk = makeLogin.user_login(email, pass)
+                If count <= 3 Then
+                    If resOk.Rows.Count > 0 Then
+                        For Each dr As System.Data.DataRow In resOk.Rows
+                            Dim vtryInt As Integer
+                            Integer.TryParse(dr("id_usuario").ToString(), vtryInt)
+                            vUserInfo.ID = vtryInt
+                            vUserInfo.Email = dr("correo").ToString()
+                            vUserInfo.Tipo = dr("tipo_usuario").ToString()
+
+                        Next
+                        ID = vUserInfo.ID
+                        ModuleUser.Email = vUserInfo.Email.ToString()
+                        Tipo = vUserInfo.Tipo.ToString()
+                        Console.WriteLine(vUserInfo)
+                        Dim fp As New frmprincipal()
+                        Me.Hide()
+                        fp.Show()
+
+                    Else
+                        resOk = makeLogin.validarMail(email)
+                        If resOk.Rows.Count > 0 Then
+                            count = count + 1
+                            MsgBox("Usuario y contraseña invalido")
+                        Else
+                            count = 0
+                            MsgBox("El correo electronico ingresado no existe")
+                        End If
+
+
+
+
+                    End If
+
+                        Else
+                    MsgBox("Usuario Bloqueado Comuníquese con el administrador " + " Numero de intentos " + count.ToString())
+
+                End If
+
             End If
+
         Catch ex As Exception
             Console.WriteLine(ex)
         End Try
@@ -93,7 +114,7 @@ Public Class Form1
 
         Dim from, pass, messageBody As String
         Dim rand As Random = New Random()
-        randomCode = (rand.Next(99999)).ToString()
+        randomCode = (rand.Next(999999999)).ToString()
         Dim message As MailMessage = New MailMessage
         Dim resOk As DataTable
         txtmail = txtsendmail.Text
@@ -116,7 +137,7 @@ Public Class Form1
 
                 If reset.actualizar_contraseña(txtmail, randomCode) = 1 Then
                     smtp.Send(message)
-
+                    count = 0
                     MessageBox.Show("Verifique su bandeja de correo e inicie Sesion nuevamente")
                     anima1.HideSync(p3)
                     anima1.ShowSync(p2)
@@ -135,19 +156,5 @@ Public Class Form1
         End If
     End Sub
 
-    Private Sub l3_Click(sender As Object, e As EventArgs) Handles l3.Click
 
-    End Sub
-
-    Private Sub l2_Click(sender As Object, e As EventArgs) Handles l2.Click
-
-    End Sub
-
-    Private Sub p1_Paint(sender As Object, e As PaintEventArgs) Handles p1.Paint
-
-    End Sub
-
-    Private Sub GunaLabel1_Click(sender As Object, e As EventArgs) Handles GunaLabel1.Click
-
-    End Sub
 End Class

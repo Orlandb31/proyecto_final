@@ -23,26 +23,13 @@ Public Class frmCrearUsuario
         If String.IsNullOrEmpty(nombre) Or String.IsNullOrEmpty(apellido) Or String.IsNullOrEmpty(correo) Or String.IsNullOrEmpty(contrasena) Or tipo_usuario = -1 Then
             MsgBox("Complete todos los campos del Formulario")
         Else
-            Try
-                res = val.validar_Usuario(correo)
 
-                MessageBox.Show(user.IngresarUsuarios(nombre, apellido, correo, contrasena, tipo_usuario))
-                txtNombre.ResetText()
-                txtApellido.ResetText()
+            res = val.validar_Usuario(correo)
+            If res = False Then
+                MsgBox("Ya existe un usuario ligado a este correo electronico, Favor Ingrese otro")
                 txtCorreo.ResetText()
-                txtContrasena.ResetText()
-                rbt_Administrador.Checked = False
-                rbt_Cajera.Checked = False
-                rbt_Inventario.Checked = False
-                'End If
-            Catch ex As Exception
-                MessageBox.Show("Error al insertar Usuario " + ex.Message)
-            End Try
-
-            If Not res Then
-                    MsgBox("Ya existe un usuario ligado a este correo electronico, Favor Ingrese otro")
-                    txtCorreo.ResetText()
-                Else
+            Else
+                Try
                     MessageBox.Show(user.IngresarUsuarios(nombre, apellido, correo, contrasena, tipo_usuario))
                     txtNombre.ResetText()
                     txtApellido.ResetText()
@@ -51,8 +38,11 @@ Public Class frmCrearUsuario
                     rbt_Administrador.Checked = False
                     rbt_Cajera.Checked = False
                     rbt_Inventario.Checked = False
-                End If
+                Catch ex As Exception
+                    MessageBox.Show("Error al insertar Usuario " + ex.Message)
+                End Try
 
+            End If
 
         End If
     End Sub
