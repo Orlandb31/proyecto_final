@@ -206,12 +206,13 @@ Partial Class Form1
         Me.txtpass.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.txtpass.HintForeColor = System.Drawing.Color.Silver
         Me.txtpass.HintText = "Password"
+        Me.txtpass.ImeMode = System.Windows.Forms.ImeMode.[On]
         Me.txtpass.isPassword = True
         Me.txtpass.LineFocusedColor = System.Drawing.Color.FromArgb(CType(CType(32, Byte), Integer), CType(CType(199, Byte), Integer), CType(CType(140, Byte), Integer))
         Me.txtpass.LineIdleColor = System.Drawing.Color.Gray
         Me.txtpass.LineMouseHoverColor = System.Drawing.Color.Silver
         Me.txtpass.LineThickness = 3
-        Me.txtpass.Location = New System.Drawing.Point(41, 138)
+        Me.txtpass.Location = New System.Drawing.Point(41, 143)
         Me.txtpass.Margin = New System.Windows.Forms.Padding(4)
         Me.txtpass.Name = "txtpass"
         Me.txtpass.Size = New System.Drawing.Size(252, 44)
