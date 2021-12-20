@@ -14,7 +14,7 @@ Public Class frmCrearUsuario
 
         nombre = txtNombre.Text
         apellido = txtApellido.Text
-        correo = txtContrasena.Text
+        correo = txtCorreo.Text
         contrasena = txtContrasena.Text
 
 

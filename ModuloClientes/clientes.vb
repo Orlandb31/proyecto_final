@@ -18,9 +18,9 @@ Public Class clientes
         con.Close()
     End Function
 
-    Public Function Consultar_cliente(nombre As String)
+    Public Function Consultar_clientes(nombre As String)
         Dim Glcommand As New SqlCommand
-        Dim dtcuentas As New DataTable
+        Dim dtclientes As New DataTable
         Dim sqlDa As SqlDataAdapter
 
         con = conectar.conexion()
@@ -35,8 +35,47 @@ Public Class clientes
         Glcommand.ExecuteNonQuery()
         sqlDa = New SqlDataAdapter(Glcommand)
 
+        sqlDa.Fill(dtclientes)
+        Return dtclientes
+        con.Close()
+    End Function
+
+    Public Function Con_cliente(id As Integer, nombre As String)
+        Dim Glcommand As New SqlCommand
+        Dim dtcuentas As New DataTable
+        Dim sqlDa As SqlDataAdapter
+
+        con = conectar.conexion()
+        con.Open()
+
+        Glcommand.Connection = con
+        Glcommand.CommandText = "SP_Mostrar_Cliente"
+        Glcommand.Parameters.AddWithValue("@id", id)
+        Glcommand.Parameters.AddWithValue("@nombre", nombre)
+        Glcommand.CommandTimeout = 0
+        Glcommand.CommandType = CommandType.StoredProcedure
+
+        Glcommand.ExecuteNonQuery()
+        sqlDa = New SqlDataAdapter(Glcommand)
+
         sqlDa.Fill(dtcuentas)
         Return dtcuentas
+
+    End Function
+
+    Public Function Act_cliente(id As Integer, nombre As String, apellido As String, correo As String, tel As String)
+        con = conectar.conexion()
+        Dim command As SqlCommand = con.CreateCommand
+        con.Open()
+        command.CommandType = CommandType.StoredProcedure
+        command.Parameters.Add(New SqlParameter("@id", id))
+        command.Parameters.Add(New SqlParameter("@nombre", nombre))
+        command.Parameters.Add(New SqlParameter("@apellido", apellido))
+        command.Parameters.Add(New SqlParameter("@correo", correo))
+        command.Parameters.Add(New SqlParameter("@telefono", tel))
+        command.CommandText = "SP_Cliente_Update"
+        Return command
         con.Close()
+
     End Function
 End Class

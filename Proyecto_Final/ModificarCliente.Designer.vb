@@ -26,15 +26,13 @@ Partial Class ModificarCliente
         Me.btn_elegir = New System.Windows.Forms.Button()
         Me.btn_Modificar = New System.Windows.Forms.Button()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.txtcod = New System.Windows.Forms.TextBox()
+        Me.txtNombre = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.txtnumerot = New System.Windows.Forms.TextBox()
         Me.txtemail = New System.Windows.Forms.TextBox()
-        Me.txtubicacion = New System.Windows.Forms.TextBox()
-        Me.txtnombree = New System.Windows.Forms.TextBox()
+        Me.txtApellido = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.cbox_clientes = New System.Windows.Forms.ComboBox()
@@ -81,15 +79,13 @@ Partial Class ModificarCliente
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.txtcod)
+        Me.GroupBox1.Controls.Add(Me.txtNombre)
         Me.GroupBox1.Controls.Add(Me.Label6)
         Me.GroupBox1.Controls.Add(Me.txtnumerot)
         Me.GroupBox1.Controls.Add(Me.txtemail)
-        Me.GroupBox1.Controls.Add(Me.txtubicacion)
-        Me.GroupBox1.Controls.Add(Me.txtnombree)
+        Me.GroupBox1.Controls.Add(Me.txtApellido)
         Me.GroupBox1.Controls.Add(Me.Label5)
         Me.GroupBox1.Controls.Add(Me.Label4)
-        Me.GroupBox1.Controls.Add(Me.Label3)
         Me.GroupBox1.Controls.Add(Me.Label7)
         Me.GroupBox1.Location = New System.Drawing.Point(27, 170)
         Me.GroupBox1.Name = "GroupBox1"
@@ -97,14 +93,14 @@ Partial Class ModificarCliente
         Me.GroupBox1.TabIndex = 5
         Me.GroupBox1.TabStop = False
         '
-        'txtcod
+        'txtNombre
         '
-        Me.txtcod.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtcod.Location = New System.Drawing.Point(237, 56)
-        Me.txtcod.Margin = New System.Windows.Forms.Padding(4)
-        Me.txtcod.Name = "txtcod"
-        Me.txtcod.Size = New System.Drawing.Size(291, 22)
-        Me.txtcod.TabIndex = 21
+        Me.txtNombre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtNombre.Location = New System.Drawing.Point(237, 56)
+        Me.txtNombre.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtNombre.Name = "txtNombre"
+        Me.txtNombre.Size = New System.Drawing.Size(291, 22)
+        Me.txtNombre.TabIndex = 21
         '
         'Label6
         '
@@ -123,7 +119,7 @@ Partial Class ModificarCliente
         Me.txtnumerot.BackColor = System.Drawing.SystemColors.Window
         Me.txtnumerot.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtnumerot.CausesValidation = False
-        Me.txtnumerot.Location = New System.Drawing.Point(237, 319)
+        Me.txtnumerot.Location = New System.Drawing.Point(237, 275)
         Me.txtnumerot.Margin = New System.Windows.Forms.Padding(4)
         Me.txtnumerot.Name = "txtnumerot"
         Me.txtnumerot.Size = New System.Drawing.Size(291, 22)
@@ -133,38 +129,28 @@ Partial Class ModificarCliente
         '
         Me.txtemail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtemail.CausesValidation = False
-        Me.txtemail.Location = New System.Drawing.Point(237, 252)
+        Me.txtemail.Location = New System.Drawing.Point(237, 200)
         Me.txtemail.Margin = New System.Windows.Forms.Padding(4)
         Me.txtemail.Name = "txtemail"
         Me.txtemail.Size = New System.Drawing.Size(291, 22)
         Me.txtemail.TabIndex = 18
         '
-        'txtubicacion
+        'txtApellido
         '
-        Me.txtubicacion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtubicacion.CausesValidation = False
-        Me.txtubicacion.Location = New System.Drawing.Point(237, 182)
-        Me.txtubicacion.Margin = New System.Windows.Forms.Padding(4)
-        Me.txtubicacion.Name = "txtubicacion"
-        Me.txtubicacion.Size = New System.Drawing.Size(291, 22)
-        Me.txtubicacion.TabIndex = 17
-        '
-        'txtnombree
-        '
-        Me.txtnombree.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtnombree.CausesValidation = False
-        Me.txtnombree.Location = New System.Drawing.Point(237, 120)
-        Me.txtnombree.Margin = New System.Windows.Forms.Padding(4)
-        Me.txtnombree.Name = "txtnombree"
-        Me.txtnombree.Size = New System.Drawing.Size(291, 22)
-        Me.txtnombree.TabIndex = 16
+        Me.txtApellido.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtApellido.CausesValidation = False
+        Me.txtApellido.Location = New System.Drawing.Point(237, 120)
+        Me.txtApellido.Margin = New System.Windows.Forms.Padding(4)
+        Me.txtApellido.Name = "txtApellido"
+        Me.txtApellido.Size = New System.Drawing.Size(291, 22)
+        Me.txtApellido.TabIndex = 16
         '
         'Label5
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label5.Location = New System.Drawing.Point(7, 311)
+        Me.Label5.Location = New System.Drawing.Point(7, 267)
         Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(211, 28)
@@ -176,24 +162,12 @@ Partial Class ModificarCliente
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label4.Location = New System.Drawing.Point(7, 248)
+        Me.Label4.Location = New System.Drawing.Point(48, 192)
         Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(77, 28)
         Me.Label4.TabIndex = 14
         Me.Label4.Text = "E-mail:"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label3.Location = New System.Drawing.Point(7, 175)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(110, 28)
-        Me.Label3.TabIndex = 13
-        Me.Label3.Text = "Ubicacion:"
         '
         'Label7
         '
@@ -277,14 +251,12 @@ Partial Class ModificarCliente
     Friend WithEvents btnBuscar As Button
     Friend WithEvents txtNombreBuscar As TextBox
     Friend WithEvents btn_elegir As Button
-    Friend WithEvents txtcod As TextBox
+    Friend WithEvents txtNombre As TextBox
     Friend WithEvents Label6 As Label
     Friend WithEvents txtnumerot As TextBox
     Friend WithEvents txtemail As TextBox
-    Friend WithEvents txtubicacion As TextBox
-    Friend WithEvents txtnombree As TextBox
+    Friend WithEvents txtApellido As TextBox
     Friend WithEvents Label5 As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents Label3 As Label
     Friend WithEvents Label7 As Label
 End Class
