@@ -4,6 +4,9 @@ Public Class frmfactura
     Private obj As New ClassFacturas
     Private Sub btn_cerrar_Click(sender As Object, e As EventArgs) Handles btn_cerrar.Click
         frmfacturacion.panelFacturacion.Visible = False
+        frmfacturacion.cbo_clientes.Enabled = True
+        frmfacturacion.btnimprimir.Hide()
+        frmfacturacion.facturacionpanel3.Visible = False
         Me.Close()
 
     End Sub

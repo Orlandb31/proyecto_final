@@ -22,25 +22,25 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim Animation2 As Guna.UI2.AnimatorNS.Animation = New Guna.UI2.AnimatorNS.Animation()
+        Dim Animation1 As Guna.UI2.AnimatorNS.Animation = New Guna.UI2.AnimatorNS.Animation()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.p1 = New Guna.UI.WinForms.GunaPanel()
+        Me.GunaLabel1 = New Guna.UI.WinForms.GunaLabel()
+        Me.l3 = New Guna.UI.WinForms.GunaLabel()
+        Me.l2 = New Guna.UI.WinForms.GunaLabel()
+        Me.l1 = New Guna.UI.WinForms.GunaLabel()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.p2 = New Guna.UI.WinForms.GunaPanel()
         Me.txtCorreo = New Bunifu.Framework.UI.BunifuMaterialTextbox()
         Me.linkaccnt = New Guna.UI.WinForms.GunaLinkLabel()
         Me.GunaButton1 = New Guna.UI.WinForms.GunaButton()
         Me.txtpass = New Bunifu.Framework.UI.BunifuMaterialTextbox()
         Me.p3 = New Guna.UI.WinForms.GunaPanel()
+        Me.GunaLabel2 = New Guna.UI.WinForms.GunaLabel()
         Me.btnx = New Guna.UI.WinForms.GunaLabel()
         Me.GunaButton2 = New Guna.UI.WinForms.GunaButton()
         Me.txtsendmail = New Bunifu.Framework.UI.BunifuMaterialTextbox()
         Me.anima1 = New Guna.UI2.WinForms.Guna2Transition()
-        Me.l3 = New Guna.UI.WinForms.GunaLabel()
-        Me.l2 = New Guna.UI.WinForms.GunaLabel()
-        Me.l1 = New Guna.UI.WinForms.GunaLabel()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.GunaLabel1 = New Guna.UI.WinForms.GunaLabel()
-        Me.GunaLabel2 = New Guna.UI.WinForms.GunaLabel()
         Me.p1.SuspendLayout()
         Me.p2.SuspendLayout()
         Me.p3.SuspendLayout()
@@ -60,6 +60,68 @@ Partial Class Form1
         Me.p1.Name = "p1"
         Me.p1.Size = New System.Drawing.Size(327, 488)
         Me.p1.TabIndex = 3
+        '
+        'GunaLabel1
+        '
+        Me.GunaLabel1.AutoSize = True
+        Me.anima1.SetDecoration(Me.GunaLabel1, Guna.UI2.AnimatorNS.DecorationType.None)
+        Me.GunaLabel1.Font = New System.Drawing.Font("Segoe UI", 18.0!)
+        Me.GunaLabel1.ForeColor = System.Drawing.Color.Silver
+        Me.GunaLabel1.Location = New System.Drawing.Point(102, 36)
+        Me.GunaLabel1.Name = "GunaLabel1"
+        Me.GunaLabel1.Size = New System.Drawing.Size(134, 32)
+        Me.GunaLabel1.TabIndex = 10
+        Me.GunaLabel1.Text = "DoogyTech"
+        '
+        'l3
+        '
+        Me.l3.AutoSize = True
+        Me.anima1.SetDecoration(Me.l3, Guna.UI2.AnimatorNS.DecorationType.None)
+        Me.l3.Font = New System.Drawing.Font("Segoe UI", 11.0!)
+        Me.l3.ForeColor = System.Drawing.Color.Silver
+        Me.l3.Location = New System.Drawing.Point(165, 134)
+        Me.l3.Name = "l3"
+        Me.l3.Size = New System.Drawing.Size(48, 20)
+        Me.l3.TabIndex = 8
+        Me.l3.Text = "FINAL"
+        '
+        'l2
+        '
+        Me.l2.AutoSize = True
+        Me.anima1.SetDecoration(Me.l2, Guna.UI2.AnimatorNS.DecorationType.None)
+        Me.l2.Font = New System.Drawing.Font("Segoe UI", 18.0!)
+        Me.l2.ForeColor = System.Drawing.Color.Silver
+        Me.l2.Location = New System.Drawing.Point(166, 100)
+        Me.l2.Name = "l2"
+        Me.l2.Size = New System.Drawing.Size(128, 32)
+        Me.l2.TabIndex = 9
+        Me.l2.Text = "PROYECTO"
+        '
+        'l1
+        '
+        Me.l1.AutoSize = True
+        Me.anima1.SetDecoration(Me.l1, Guna.UI2.AnimatorNS.DecorationType.None)
+        Me.l1.Font = New System.Drawing.Font("Segoe UI", 40.0!, System.Drawing.FontStyle.Bold)
+        Me.l1.ForeColor = System.Drawing.Color.Silver
+        Me.l1.Location = New System.Drawing.Point(51, 91)
+        Me.l1.Name = "l1"
+        Me.l1.Size = New System.Drawing.Size(134, 72)
+        Me.l1.TabIndex = 7
+        Me.l1.Text = "UTP"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.anima1.SetDecoration(Me.Label2, Guna.UI2.AnimatorNS.DecorationType.None)
+        Me.Label2.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold)
+        Me.Label2.ForeColor = System.Drawing.Color.Silver
+        Me.Label2.Location = New System.Drawing.Point(89, 198)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(165, 184)
+        Me.Label2.TabIndex = 6
+        Me.Label2.Text = "Integrantes:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Castillo,Wencers" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Borrero, Orlando" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Green, Abraham" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Gutierrez, Lu" &
+    "is" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "     -1LS132-"
         '
         'p2
         '
@@ -171,6 +233,18 @@ Partial Class Form1
         Me.p3.TabIndex = 5
         Me.p3.Visible = False
         '
+        'GunaLabel2
+        '
+        Me.GunaLabel2.AutoSize = True
+        Me.anima1.SetDecoration(Me.GunaLabel2, Guna.UI2.AnimatorNS.DecorationType.None)
+        Me.GunaLabel2.Font = New System.Drawing.Font("Segoe UI", 18.0!)
+        Me.GunaLabel2.ForeColor = System.Drawing.Color.Silver
+        Me.GunaLabel2.Location = New System.Drawing.Point(37, 36)
+        Me.GunaLabel2.Name = "GunaLabel2"
+        Me.GunaLabel2.Size = New System.Drawing.Size(275, 32)
+        Me.GunaLabel2.TabIndex = 11
+        Me.GunaLabel2.Text = "Reestablecer Contraseña"
+        '
         'btnx
         '
         Me.btnx.AutoSize = True
@@ -233,98 +307,24 @@ Partial Class Form1
         '
         Me.anima1.AnimationType = Guna.UI2.AnimatorNS.AnimationType.Scale
         Me.anima1.Cursor = Nothing
-        Animation2.AnimateOnlyDifferences = True
-        Animation2.BlindCoeff = CType(resources.GetObject("Animation2.BlindCoeff"), System.Drawing.PointF)
-        Animation2.LeafCoeff = 0!
-        Animation2.MaxTime = 1.0!
-        Animation2.MinTime = 0!
-        Animation2.MosaicCoeff = CType(resources.GetObject("Animation2.MosaicCoeff"), System.Drawing.PointF)
-        Animation2.MosaicShift = CType(resources.GetObject("Animation2.MosaicShift"), System.Drawing.PointF)
-        Animation2.MosaicSize = 0
-        Animation2.Padding = New System.Windows.Forms.Padding(0)
-        Animation2.RotateCoeff = 0!
-        Animation2.RotateLimit = 0!
-        Animation2.ScaleCoeff = CType(resources.GetObject("Animation2.ScaleCoeff"), System.Drawing.PointF)
-        Animation2.SlideCoeff = CType(resources.GetObject("Animation2.SlideCoeff"), System.Drawing.PointF)
-        Animation2.TimeCoeff = 0!
-        Animation2.TransparencyCoeff = 0!
-        Me.anima1.DefaultAnimation = Animation2
+        Animation1.AnimateOnlyDifferences = True
+        Animation1.BlindCoeff = CType(resources.GetObject("Animation1.BlindCoeff"), System.Drawing.PointF)
+        Animation1.LeafCoeff = 0!
+        Animation1.MaxTime = 1.0!
+        Animation1.MinTime = 0!
+        Animation1.MosaicCoeff = CType(resources.GetObject("Animation1.MosaicCoeff"), System.Drawing.PointF)
+        Animation1.MosaicShift = CType(resources.GetObject("Animation1.MosaicShift"), System.Drawing.PointF)
+        Animation1.MosaicSize = 0
+        Animation1.Padding = New System.Windows.Forms.Padding(0)
+        Animation1.RotateCoeff = 0!
+        Animation1.RotateLimit = 0!
+        Animation1.ScaleCoeff = CType(resources.GetObject("Animation1.ScaleCoeff"), System.Drawing.PointF)
+        Animation1.SlideCoeff = CType(resources.GetObject("Animation1.SlideCoeff"), System.Drawing.PointF)
+        Animation1.TimeCoeff = 0!
+        Animation1.TransparencyCoeff = 0!
+        Me.anima1.DefaultAnimation = Animation1
         Me.anima1.Interval = 20
         Me.anima1.TimeStep = 0.1!
-        '
-        'l3
-        '
-        Me.l3.AutoSize = True
-        Me.anima1.SetDecoration(Me.l3, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.l3.Font = New System.Drawing.Font("Segoe UI", 11.0!)
-        Me.l3.ForeColor = System.Drawing.Color.Silver
-        Me.l3.Location = New System.Drawing.Point(165, 134)
-        Me.l3.Name = "l3"
-        Me.l3.Size = New System.Drawing.Size(48, 20)
-        Me.l3.TabIndex = 8
-        Me.l3.Text = "FINAL"
-        '
-        'l2
-        '
-        Me.l2.AutoSize = True
-        Me.anima1.SetDecoration(Me.l2, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.l2.Font = New System.Drawing.Font("Segoe UI", 18.0!)
-        Me.l2.ForeColor = System.Drawing.Color.Silver
-        Me.l2.Location = New System.Drawing.Point(166, 100)
-        Me.l2.Name = "l2"
-        Me.l2.Size = New System.Drawing.Size(128, 32)
-        Me.l2.TabIndex = 9
-        Me.l2.Text = "PROYECTO"
-        '
-        'l1
-        '
-        Me.l1.AutoSize = True
-        Me.anima1.SetDecoration(Me.l1, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.l1.Font = New System.Drawing.Font("Segoe UI", 40.0!, System.Drawing.FontStyle.Bold)
-        Me.l1.ForeColor = System.Drawing.Color.Silver
-        Me.l1.Location = New System.Drawing.Point(51, 91)
-        Me.l1.Name = "l1"
-        Me.l1.Size = New System.Drawing.Size(134, 72)
-        Me.l1.TabIndex = 7
-        Me.l1.Text = "UTP"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.anima1.SetDecoration(Me.Label2, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.Label2.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold)
-        Me.Label2.ForeColor = System.Drawing.Color.Silver
-        Me.Label2.Location = New System.Drawing.Point(89, 198)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(165, 184)
-        Me.Label2.TabIndex = 6
-        Me.Label2.Text = "Integrantes:" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Castillo,Wencers" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Borrero, Orlando" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Green, Abraham" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Gutierrez, Lu" &
-    "is" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "     -1LS132-"
-        '
-        'GunaLabel1
-        '
-        Me.GunaLabel1.AutoSize = True
-        Me.anima1.SetDecoration(Me.GunaLabel1, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.GunaLabel1.Font = New System.Drawing.Font("Segoe UI", 18.0!)
-        Me.GunaLabel1.ForeColor = System.Drawing.Color.Silver
-        Me.GunaLabel1.Location = New System.Drawing.Point(102, 36)
-        Me.GunaLabel1.Name = "GunaLabel1"
-        Me.GunaLabel1.Size = New System.Drawing.Size(134, 32)
-        Me.GunaLabel1.TabIndex = 10
-        Me.GunaLabel1.Text = "DoogyTech"
-        '
-        'GunaLabel2
-        '
-        Me.GunaLabel2.AutoSize = True
-        Me.anima1.SetDecoration(Me.GunaLabel2, Guna.UI2.AnimatorNS.DecorationType.None)
-        Me.GunaLabel2.Font = New System.Drawing.Font("Segoe UI", 18.0!)
-        Me.GunaLabel2.ForeColor = System.Drawing.Color.Silver
-        Me.GunaLabel2.Location = New System.Drawing.Point(37, 36)
-        Me.GunaLabel2.Name = "GunaLabel2"
-        Me.GunaLabel2.Size = New System.Drawing.Size(275, 32)
-        Me.GunaLabel2.TabIndex = 11
-        Me.GunaLabel2.Text = "Reestablecer Contraseña"
         '
         'Form1
         '
@@ -338,6 +338,7 @@ Partial Class Form1
         Me.anima1.SetDecoration(Me, Guna.UI2.AnimatorNS.DecorationType.None)
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.p1.ResumeLayout(False)
         Me.p1.PerformLayout()

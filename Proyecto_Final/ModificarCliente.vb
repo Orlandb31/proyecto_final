@@ -6,7 +6,16 @@ Imports System.Data.SqlClient
 Public Class ModificarCliente
     Private id As Integer
 
-    Private Sub btnBuscar_Click(sender As Object, e As EventArgs) Handles btnBuscar.Click
+
+
+
+    Private Sub btn_Modificar_Click1(sender As Object, e As EventArgs)
+
+    End Sub
+
+
+
+    Private Sub btnBuscar_Click_1(sender As Object, e As EventArgs) Handles btnBuscar.Click
         btn_elegir.Enabled = True
         Dim cliente As New clientes
         Dim conectar As New CAConexion
@@ -45,7 +54,6 @@ Public Class ModificarCliente
             txtemail.Text = fila.ItemArray(3)
             txtnumerot.Text = fila.ItemArray(4)
         End If
-
     End Sub
 
     Private Sub btn_Modificar_Click(sender As Object, e As EventArgs) Handles btn_Modificar.Click
@@ -79,10 +87,6 @@ Public Class ModificarCliente
                 MessageBox.Show("Error al actualizar cliente " + ex.Message)
             End Try
         End If
-
-    End Sub
-
-    Private Sub Label8_Click(sender As Object, e As EventArgs) Handles Label8.Click
 
     End Sub
 End Class

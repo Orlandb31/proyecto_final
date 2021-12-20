@@ -8,6 +8,8 @@ Public Class frmprincipal
 
                 frmCrearUsuario.MdiParent = Me
                 frmCrearUsuario.WindowState = FormWindowState.Maximized
+                frmCrearUsuario.p1.Left = (Me.Width - frmCrearCliente.p1.Width) / 2
+                frmCrearUsuario.p1.Top = (frmCrearUsuario.Height - frmCrearUsuario.p1.Height) / 2
                 frmCrearUsuario.Show()
 
             ElseIf ModuleUser.Tipo.ToString().Equals("2") Then
@@ -18,6 +20,8 @@ Public Class frmprincipal
 
                 frmcrearproducto.MdiParent = Me
                 frmcrearproducto.WindowState = FormWindowState.Maximized
+                frmcrearproducto.pCrearProducto.Left = (frmcrearproducto.Width - frmcrearproducto.pCrearProducto.Width) / 2
+                frmcrearproducto.pCrearProducto.Top = (frmcrearproducto.Height - frmcrearproducto.pCrearProducto.Height) / 2
                 frmcrearproducto.Show()
 
             ElseIf ModuleUser.Tipo.ToString().Equals("3") Then
@@ -28,6 +32,8 @@ Public Class frmprincipal
                 ModificarClientesToolStripMenuItem.Visible = True
 
                 frmCrearCliente.MdiParent = Me
+                frmCrearCliente.p1.Left = (Me.Width - frmCrearCliente.p1.Width) / 2
+                frmCrearCliente.p1.Top = (frmCrearCliente.Height - frmCrearCliente.p1.Height) / 2
                 frmCrearCliente.WindowState = FormWindowState.Maximized
                 frmCrearCliente.Show()
 
@@ -47,6 +53,8 @@ Public Class frmprincipal
     Private Sub CrearToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CrearInventarioToolStripMenuItem.Click
         frmcrearproducto.MdiParent = Me
         frmcrearproducto.WindowState = FormWindowState.Maximized
+        frmcrearproducto.pCrearProducto.Left = (frmcrearproducto.Width - frmcrearproducto.pCrearProducto.Width) / 2
+        frmcrearproducto.pCrearProducto.Top = (frmcrearproducto.Height - frmcrearproducto.pCrearProducto.Height) / 2
         frmcrearproducto.Show()
 
         frmCrearUsuario.Close()
@@ -61,6 +69,8 @@ Public Class frmprincipal
     Private Sub CrearClientesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CrearClientesToolStripMenuItem.Click
         frmCrearCliente.MdiParent = Me
         frmCrearCliente.WindowState = FormWindowState.Maximized
+        frmCrearCliente.p1.Left = (Me.Width - frmCrearCliente.p1.Width) / 2
+        frmCrearCliente.p1.Top = (frmCrearCliente.Height - frmCrearCliente.p1.Height) / 2
         frmCrearCliente.Show()
 
         frmCrearUsuario.Close()
@@ -73,6 +83,8 @@ Public Class frmprincipal
     Private Sub FacturacionToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles FacturacionToolStripMenuItem.Click
         frmfacturacion.MdiParent = Me
         frmfacturacion.WindowState = FormWindowState.Maximized
+        frmfacturacion.p1.Left = (Me.Width - frmCrearCliente.p1.Width) / 2
+        frmfacturacion.p1.Top = (frmfacturacion.Height - frmfacturacion.p1.Height) / 2
         frmfacturacion.Show()
 
         frmCrearCliente.Close()
@@ -85,6 +97,8 @@ Public Class frmprincipal
     Private Sub CrearUsuarioToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CrearUsuarioToolStripMenuItem.Click
         frmCrearUsuario.MdiParent = Me
         frmCrearUsuario.WindowState = FormWindowState.Maximized
+        frmCrearUsuario.p1.Left = (Me.Width - frmCrearCliente.p1.Width) / 2
+
         frmCrearUsuario.Show()
 
 
@@ -102,6 +116,8 @@ Public Class frmprincipal
 
         ModificarCliente.MdiParent = Me
         ModificarCliente.WindowState = FormWindowState.Maximized
+
+        ModificarCliente.p1.Left = (Me.Width - ModificarCliente.p1.Width) / 2
         ModificarCliente.Show()
 
         frmfactura.Close()

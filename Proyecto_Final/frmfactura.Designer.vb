@@ -167,7 +167,7 @@ Partial Class frmfactura
         Me.dtg_compras.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.dtg_compras.BackgroundColor = System.Drawing.Color.DarkGray
         Me.dtg_compras.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.dtg_compras.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
+        Me.dtg_compras.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SunkenHorizontal
         Me.dtg_compras.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
         DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
@@ -192,6 +192,7 @@ Partial Class frmfactura
         Me.dtg_compras.Name = "dtg_compras"
         Me.dtg_compras.ReadOnly = True
         Me.dtg_compras.RowHeadersVisible = False
+        Me.dtg_compras.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToDisplayedHeaders
         Me.dtg_compras.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.dtg_compras.Size = New System.Drawing.Size(420, 142)
         Me.dtg_compras.TabIndex = 11
@@ -210,9 +211,9 @@ Partial Class frmfactura
         Me.dtg_compras.ThemeStyle.HeaderStyle.Height = 4
         Me.dtg_compras.ThemeStyle.ReadOnly = True
         Me.dtg_compras.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White
-        Me.dtg_compras.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
+        Me.dtg_compras.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SunkenHorizontal
         Me.dtg_compras.ThemeStyle.RowsStyle.Font = New System.Drawing.Font("Segoe UI", 10.5!)
-        Me.dtg_compras.ThemeStyle.RowsStyle.ForeColor = System.Drawing.SystemColors.ControlLight
+        Me.dtg_compras.ThemeStyle.RowsStyle.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.dtg_compras.ThemeStyle.RowsStyle.Height = 22
         Me.dtg_compras.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.dtg_compras.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
@@ -331,7 +332,7 @@ Partial Class frmfactura
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(54, Byte), Integer))
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(35, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(650, 500)
         Me.Controls.Add(Me.Guna2Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None

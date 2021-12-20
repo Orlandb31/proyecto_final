@@ -25,7 +25,7 @@ Public Class frmfacturacion
             End With
         End If
         facturacionpanel3.Hide()
-        'btnimprimir.Hide()
+        btnimprimir.Hide()
         idproducto = cbo_productos.SelectedValue()
         nud_cantidades.Value = 1
         nud_cantidades.Maximum = obj.nud_cantidades(idproducto)
@@ -52,7 +52,13 @@ Public Class frmfacturacion
             idfactura = (obj.retornar_idfacturas() + 1)
         End If
         Try
-            MessageBox.Show(obj.ingresar_nueva_factura(idfactura, idcliente, idusuario))
+            If obj.ingresar_nueva_factura(idfactura, idcliente, idusuario) = 1 Then
+                cbo_clientes.Enabled = False
+            Else
+                MsgBox("Error al Ingresar la Factura")
+            End If
+
+
         Catch ex As Exception
             MessageBox.Show("Hubo un error=" + ex.ToString)
         End Try
@@ -63,6 +69,7 @@ Public Class frmfacturacion
         Dim cantidad As Integer = nud_cantidades.Value()
         Try
             MessageBox.Show(obj.agregar_compra(idproducto, idfactura, cantidad))
+            btnimprimir.Show()
         Catch ex As Exception
             MessageBox.Show("Hubo un error=" + ex.ToString)
         End Try

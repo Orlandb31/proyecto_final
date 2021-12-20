@@ -27,9 +27,9 @@ Public Class ClassFacturas
     Public Function ingresar_nueva_factura(idfacturas As Integer, idclientes As Integer, idusuarios As Integer)
         sqlcom = procedimiento.nueva_factura(idfacturas, idclientes, idusuarios)
         If sqlcom.ExecuteNonQuery() Then
-            Return "Factura Ingresada"
+            Return 1
         Else
-            Return "Error al Ingresar la Factura"
+            Return 0
         End If
     End Function
     Public Function agregar_compra(idproducto As Integer, idfacturas As Integer, cantidad As Integer)

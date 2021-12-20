@@ -40,7 +40,12 @@
       "ProjectGuid": "b1d9d9d2-3f15-4a79-8076-a901096bbc2b",
       "DisplayName": "ModuloInventario",
       "ColorIndex": 6
+    },
+    "dba138f6-69ba-4dc6-aff2-da35c7c90a74": {
+      "ProjectGuid": "dba138f6-69ba-4dc6-aff2-da35c7c90a74",
+      "DisplayName": "ModuloClientes",
+      "ColorIndex": 7
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 8
 }

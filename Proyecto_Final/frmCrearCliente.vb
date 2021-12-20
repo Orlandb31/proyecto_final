@@ -1,7 +1,37 @@
 ﻿Imports Modulo_Administracion
 Imports System.Text.RegularExpressions
 Public Class frmCrearCliente
-    Private Sub btncrear_Click(sender As Object, e As EventArgs) Handles btncrear.Click
+
+    Public Function IsValidEmail(ByVal email As String) As Boolean
+        If email = String.Empty Then
+            Return False
+        End If
+        ' Compruebo si el formato de la dirección es correcto.
+        Dim re As Regex = New Regex("^[\w._%-]+@[\w.-]+\.[a-zA-Z]{2,4}$")
+        Dim m As Match = re.Match(email)
+        Return (m.Captures.Count <> 0)
+    End Function
+
+
+    Private Sub txtcod_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtcod.KeyPress
+        If (Char.IsDigit(e.KeyChar)) Then
+            e.Handled = False
+
+        ElseIf (Char.IsControl(e.KeyChar)) Then
+
+            e.Handled = False
+
+        Else
+
+            e.Handled = True
+        End If
+    End Sub
+
+    Private Sub frmCrearC_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        txtcod.Focus()
+    End Sub
+
+    Private Sub btncrear_Click_1(sender As Object, e As EventArgs) Handles btncrear.Click
         Dim cod As Integer
         Dim nombre As String
         Dim vali As New validaciones
@@ -10,7 +40,7 @@ Public Class frmCrearCliente
         Dim numero As String
         Dim bln As Boolean = IsValidEmail(txtemail.Text)
         Dim bln2 As Boolean = vali.validar_nombre_empresa(txtnombre.Text)
-        Dim bln3 As Boolean = vali.validar_cod_empresa(CInt(txtcod.Text))
+        Dim bln3 As Boolean = vali.validar_cod_empresa(Val(txtcod.Text))
         Dim agregar As New ClaseClientes
         cod = Val(txtcod.Text)
         nombre = txtnombre.Text
@@ -57,33 +87,5 @@ Public Class frmCrearCliente
                 MessageBox.Show("Hubo un error=" + ex.ToString)
             End Try
         End If
-    End Sub
-    Public Function IsValidEmail(ByVal email As String) As Boolean
-        If email = String.Empty Then
-            Return False
-        End If
-        ' Compruebo si el formato de la dirección es correcto.
-        Dim re As Regex = New Regex("^[\w._%-]+@[\w.-]+\.[a-zA-Z]{2,4}$")
-        Dim m As Match = re.Match(email)
-        Return (m.Captures.Count <> 0)
-    End Function
-
-
-    Private Sub txtcod_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtcod.KeyPress
-        If (Char.IsDigit(e.KeyChar)) Then
-            e.Handled = False
-
-        ElseIf (Char.IsControl(e.KeyChar)) Then
-
-            e.Handled = False
-
-        Else
-
-            e.Handled = True
-        End If
-    End Sub
-
-    Private Sub frmCrearC_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        txtcod.Focus()
     End Sub
 End Class

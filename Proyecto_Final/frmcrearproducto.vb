@@ -1,7 +1,7 @@
 ﻿Imports Modulo_Administracion
 
 Public Class frmcrearproducto
-    Private Sub txtprecio_KeyPress(sender As Object, e As KeyPressEventArgs) Handles txtprecio.KeyPress
+    Private Sub txtprecio_KeyPress(sender As Object, e As KeyPressEventArgs)
         NumerosyDecimal(txtprecio, e)
     End Sub
 
@@ -18,7 +18,12 @@ Public Class frmcrearproducto
             e.Handled = True
         End If
     End Sub
-    Private Sub btncrear_Click(sender As Object, e As EventArgs) Handles btncrear.Click
+    Private Sub btncrear_Click(sender As Object, e As EventArgs)
+
+
+    End Sub
+
+    Private Sub btncrear_Click_1(sender As Object, e As EventArgs) Handles btncrear.Click
         Dim nombre As String
         Dim precio As Double
         Dim cantidad As Integer
@@ -38,18 +43,5 @@ Public Class frmcrearproducto
             End Try
 
         End If
-
-    End Sub
-
-    Private Sub Button1_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub Label10_Click(sender As Object, e As EventArgs) Handles Label10.Click
-
-    End Sub
-
-    Private Sub Guna2Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Guna2Panel1.Paint
-
     End Sub
 End Class

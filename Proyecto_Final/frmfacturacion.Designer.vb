@@ -23,7 +23,8 @@ Partial Class frmfacturacion
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.cbo_clientes = New Guna.UI2.WinForms.Guna2ComboBox()
-        Me.facturacionpanel1 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.p1 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.panelFacturacion = New System.Windows.Forms.Panel()
         Me.btnimprimir = New Guna.UI2.WinForms.Guna2Button()
         Me.facturacionpanel3 = New Guna.UI2.WinForms.Guna2Panel()
         Me.lbl_precio = New System.Windows.Forms.Label()
@@ -37,8 +38,7 @@ Partial Class frmfacturacion
         Me.btnseleccionar = New Guna.UI2.WinForms.Guna2Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.panelFacturacion = New System.Windows.Forms.Panel()
-        Me.facturacionpanel1.SuspendLayout()
+        Me.p1.SuspendLayout()
         Me.facturacionpanel3.SuspendLayout()
         CType(Me.nud_cantidades, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.facturacionpanel2.SuspendLayout()
@@ -57,24 +57,33 @@ Partial Class frmfacturacion
         Me.cbo_clientes.HoverState.Parent = Me.cbo_clientes
         Me.cbo_clientes.ItemHeight = 30
         Me.cbo_clientes.ItemsAppearance.Parent = Me.cbo_clientes
-        Me.cbo_clientes.Location = New System.Drawing.Point(117, 3)
+        Me.cbo_clientes.Location = New System.Drawing.Point(117, 17)
         Me.cbo_clientes.Name = "cbo_clientes"
         Me.cbo_clientes.ShadowDecoration.Parent = Me.cbo_clientes
         Me.cbo_clientes.Size = New System.Drawing.Size(221, 36)
         Me.cbo_clientes.TabIndex = 0
         '
-        'facturacionpanel1
+        'p1
         '
-        Me.facturacionpanel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(35, Byte), Integer))
-        Me.facturacionpanel1.Controls.Add(Me.btnimprimir)
-        Me.facturacionpanel1.Controls.Add(Me.facturacionpanel3)
-        Me.facturacionpanel1.Controls.Add(Me.facturacionpanel2)
-        Me.facturacionpanel1.Controls.Add(Me.Label1)
-        Me.facturacionpanel1.Location = New System.Drawing.Point(53, 34)
-        Me.facturacionpanel1.Name = "facturacionpanel1"
-        Me.facturacionpanel1.ShadowDecoration.Parent = Me.facturacionpanel1
-        Me.facturacionpanel1.Size = New System.Drawing.Size(551, 430)
-        Me.facturacionpanel1.TabIndex = 1
+        Me.p1.BackColor = System.Drawing.Color.FromArgb(CType(CType(37, Byte), Integer), CType(CType(34, Byte), Integer), CType(CType(35, Byte), Integer))
+        Me.p1.Controls.Add(Me.panelFacturacion)
+        Me.p1.Controls.Add(Me.btnimprimir)
+        Me.p1.Controls.Add(Me.facturacionpanel3)
+        Me.p1.Controls.Add(Me.facturacionpanel2)
+        Me.p1.Controls.Add(Me.Label1)
+        Me.p1.Location = New System.Drawing.Point(53, 34)
+        Me.p1.Name = "p1"
+        Me.p1.ShadowDecoration.Parent = Me.p1
+        Me.p1.Size = New System.Drawing.Size(611, 534)
+        Me.p1.TabIndex = 1
+        '
+        'panelFacturacion
+        '
+        Me.panelFacturacion.Location = New System.Drawing.Point(3, 6)
+        Me.panelFacturacion.Name = "panelFacturacion"
+        Me.panelFacturacion.Size = New System.Drawing.Size(611, 528)
+        Me.panelFacturacion.TabIndex = 2
+        Me.panelFacturacion.Visible = False
         '
         'btnimprimir
         '
@@ -87,9 +96,9 @@ Partial Class frmfacturacion
         Me.btnimprimir.DisabledState.Parent = Me.btnimprimir
         Me.btnimprimir.FillColor = System.Drawing.Color.SpringGreen
         Me.btnimprimir.Font = New System.Drawing.Font("Segoe UI Semibold", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnimprimir.ForeColor = System.Drawing.Color.White
+        Me.btnimprimir.ForeColor = System.Drawing.Color.Black
         Me.btnimprimir.HoverState.Parent = Me.btnimprimir
-        Me.btnimprimir.Location = New System.Drawing.Point(375, 376)
+        Me.btnimprimir.Location = New System.Drawing.Point(402, 433)
         Me.btnimprimir.Name = "btnimprimir"
         Me.btnimprimir.ShadowDecoration.Parent = Me.btnimprimir
         Me.btnimprimir.Size = New System.Drawing.Size(134, 36)
@@ -107,7 +116,7 @@ Partial Class frmfacturacion
         Me.facturacionpanel3.Controls.Add(Me.Label3)
         Me.facturacionpanel3.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.facturacionpanel3.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.facturacionpanel3.Location = New System.Drawing.Point(18, 133)
+        Me.facturacionpanel3.Location = New System.Drawing.Point(45, 190)
         Me.facturacionpanel3.Name = "facturacionpanel3"
         Me.facturacionpanel3.ShadowDecoration.Parent = Me.facturacionpanel3
         Me.facturacionpanel3.Size = New System.Drawing.Size(514, 227)
@@ -168,8 +177,8 @@ Partial Class frmfacturacion
         Me.btnagregar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.btnagregar.DisabledState.Parent = Me.btnagregar
         Me.btnagregar.FillColor = System.Drawing.Color.SpringGreen
-        Me.btnagregar.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnagregar.ForeColor = System.Drawing.Color.White
+        Me.btnagregar.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.btnagregar.ForeColor = System.Drawing.Color.Black
         Me.btnagregar.HoverState.Parent = Me.btnagregar
         Me.btnagregar.Location = New System.Drawing.Point(357, 176)
         Me.btnagregar.Name = "btnagregar"
@@ -214,7 +223,7 @@ Partial Class frmfacturacion
         Me.facturacionpanel2.Controls.Add(Me.Label2)
         Me.facturacionpanel2.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.facturacionpanel2.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.facturacionpanel2.Location = New System.Drawing.Point(18, 52)
+        Me.facturacionpanel2.Location = New System.Drawing.Point(45, 109)
         Me.facturacionpanel2.Name = "facturacionpanel2"
         Me.facturacionpanel2.ShadowDecoration.Parent = Me.facturacionpanel2
         Me.facturacionpanel2.Size = New System.Drawing.Size(514, 75)
@@ -230,10 +239,10 @@ Partial Class frmfacturacion
         Me.btnseleccionar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer), CType(CType(141, Byte), Integer))
         Me.btnseleccionar.DisabledState.Parent = Me.btnseleccionar
         Me.btnseleccionar.FillColor = System.Drawing.Color.SpringGreen
-        Me.btnseleccionar.Font = New System.Drawing.Font("Segoe UI Semibold", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnseleccionar.ForeColor = System.Drawing.Color.White
+        Me.btnseleccionar.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.btnseleccionar.ForeColor = System.Drawing.Color.Black
         Me.btnseleccionar.HoverState.Parent = Me.btnseleccionar
-        Me.btnseleccionar.Location = New System.Drawing.Point(357, 3)
+        Me.btnseleccionar.Location = New System.Drawing.Point(357, 17)
         Me.btnseleccionar.Name = "btnseleccionar"
         Me.btnseleccionar.ShadowDecoration.Parent = Me.btnseleccionar
         Me.btnseleccionar.Size = New System.Drawing.Size(134, 36)
@@ -244,7 +253,7 @@ Partial Class frmfacturacion
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(21, 9)
+        Me.Label2.Location = New System.Drawing.Point(21, 23)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(90, 30)
         Me.Label2.TabIndex = 2
@@ -255,33 +264,24 @@ Partial Class frmfacturacion
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLight
-        Me.Label1.Location = New System.Drawing.Point(164, 4)
+        Me.Label1.Location = New System.Drawing.Point(217, 23)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(192, 45)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Facturacion"
-        '
-        'panelFacturacion
-        '
-        Me.panelFacturacion.Location = New System.Drawing.Point(13, 34)
-        Me.panelFacturacion.Name = "panelFacturacion"
-        Me.panelFacturacion.Size = New System.Drawing.Size(613, 442)
-        Me.panelFacturacion.TabIndex = 2
-        Me.panelFacturacion.Visible = False
         '
         'frmfacturacion
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(54, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(650, 500)
-        Me.Controls.Add(Me.panelFacturacion)
-        Me.Controls.Add(Me.facturacionpanel1)
+        Me.ClientSize = New System.Drawing.Size(741, 615)
+        Me.Controls.Add(Me.p1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frmfacturacion"
         Me.Text = "frmfacturacion"
-        Me.facturacionpanel1.ResumeLayout(False)
-        Me.facturacionpanel1.PerformLayout()
+        Me.p1.ResumeLayout(False)
+        Me.p1.PerformLayout()
         Me.facturacionpanel3.ResumeLayout(False)
         Me.facturacionpanel3.PerformLayout()
         CType(Me.nud_cantidades, System.ComponentModel.ISupportInitialize).EndInit()
@@ -292,7 +292,7 @@ Partial Class frmfacturacion
     End Sub
 
     Friend WithEvents cbo_clientes As Guna.UI2.WinForms.Guna2ComboBox
-    Friend WithEvents facturacionpanel1 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents p1 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents facturacionpanel3 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents nud_cantidades As Guna.UI2.WinForms.Guna2NumericUpDown
     Friend WithEvents btnagregar As Guna.UI2.WinForms.Guna2Button
