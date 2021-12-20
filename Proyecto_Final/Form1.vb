@@ -28,7 +28,7 @@ Public Class Form1
             MessageBox.Show("error al realizar la conexion", "error", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End If
 
-        anima1.ShowSync(l1)
+
         anima1.AnimationType = Guna.UI2.AnimatorNS.AnimationType.HorizSlide
         anima1.ShowSync(l2)
         anima1.AnimationType = Guna.UI2.AnimatorNS.AnimationType.HorizBlind
@@ -133,5 +133,21 @@ Public Class Form1
         Else
             MsgBox("El correo que ha introducido no existe")
         End If
+    End Sub
+
+    Private Sub l3_Click(sender As Object, e As EventArgs) Handles l3.Click
+
+    End Sub
+
+    Private Sub l2_Click(sender As Object, e As EventArgs) Handles l2.Click
+
+    End Sub
+
+    Private Sub p1_Paint(sender As Object, e As PaintEventArgs) Handles p1.Paint
+
+    End Sub
+
+    Private Sub GunaLabel1_Click(sender As Object, e As EventArgs) Handles GunaLabel1.Click
+
     End Sub
 End Class

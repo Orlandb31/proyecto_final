@@ -44,4 +44,12 @@ Public Class frmcrearproducto
     Private Sub Button1_Click(sender As Object, e As EventArgs)
 
     End Sub
+
+    Private Sub Label10_Click(sender As Object, e As EventArgs) Handles Label10.Click
+
+    End Sub
+
+    Private Sub Guna2Panel1_Paint(sender As Object, e As PaintEventArgs) Handles Guna2Panel1.Paint
+
+    End Sub
 End Class
