@@ -12,7 +12,7 @@ Public Class frmfacturacion
         If dt.Rows.Count <> 0 Then
             With cbo_clientes
                 .DataSource = dt
-                .ValueMember = "id_cliente"
+                .ValueMember = "id_clientes"
                 .DisplayMember = "nombre"
             End With
         End If
@@ -70,6 +70,10 @@ Public Class frmfacturacion
     End Sub
 
     Private Sub btnimprimir_Click(sender As Object, e As EventArgs) Handles btnimprimir.Click
+        frmfactura.TopLevel = False
+        frmfactura.TopMost = True
+        panelFacturacion.Controls.Add(frmfactura)
         frmfactura.Show()
+        panelFacturacion.Visible = True
     End Sub
 End Class

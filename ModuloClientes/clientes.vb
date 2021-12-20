@@ -36,6 +36,7 @@ Public Class clientes
         sqlDa = New SqlDataAdapter(Glcommand)
 
         sqlDa.Fill(dtclientes)
+
         Return dtclientes
         con.Close()
     End Function
@@ -63,14 +64,14 @@ Public Class clientes
 
     End Function
 
-    Public Function Act_cliente(id As Integer, nombre As String, apellido As String, correo As String, tel As String)
+    Public Function Act_cliente(id As Integer, nombre As String, ubicacion As String, correo As String, tel As String)
         con = conectar.conexion()
         Dim command As SqlCommand = con.CreateCommand
         con.Open()
         command.CommandType = CommandType.StoredProcedure
         command.Parameters.Add(New SqlParameter("@id", id))
         command.Parameters.Add(New SqlParameter("@nombre", nombre))
-        command.Parameters.Add(New SqlParameter("@apellido", apellido))
+        command.Parameters.Add(New SqlParameter("@ubicacion", ubicacion))
         command.Parameters.Add(New SqlParameter("@correo", correo))
         command.Parameters.Add(New SqlParameter("@telefono", tel))
         command.CommandText = "SP_Cliente_Update"

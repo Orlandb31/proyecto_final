@@ -3,7 +3,9 @@ Public Class frmfactura
     Private idfactura As Integer
     Private obj As New ClassFacturas
     Private Sub btn_cerrar_Click(sender As Object, e As EventArgs) Handles btn_cerrar.Click
+        frmfacturacion.panelFacturacion.Visible = False
         Me.Close()
+
     End Sub
 
     Private Sub frmfactura_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -16,7 +18,7 @@ Public Class frmfactura
         lbl_nfactura.Text = idfactura
         lbl_nombre.Text = row("nombre")
         monto = CDbl(row("monto"))
-        lbl_ncliente.Text = row("id_cliente")
+        lbl_ncliente.Text = row("id_clientes")
         lbl_telefono.Text = row("numero_telefono")
         lbl_email.Text = row("correo")
         itbms = monto * 0.07

@@ -1,8 +1,12 @@
 ﻿Imports Modulo_Conexion
 Imports Modulo_Administracion
+Imports System.Net.Mail
+Imports System.Net
 Public Class Form1
-
-    Dim makeLogin As New CLogica
+    Dim randomCode As String
+    Public Shared txtmail As String
+    Dim makeLogin As New Login
+    Dim reset As New CLogica
     Private Sub linkaccnt_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles linkaccnt.LinkClicked
         anima1.HideSync(p2)
         anima1.ShowSync(p3)
@@ -34,7 +38,7 @@ Public Class Form1
     End Sub
 
 
-    Private Sub btnconexion_Click(sender As Object, e As EventArgs) Handles btnconexion.Click
+    Private Sub btnconexion_Click(sender As Object, e As EventArgs)
         Dim modulo As New CAProbarConexion
         Dim respuestas As Boolean = modulo.verificarconexion
         If respuestas Then
@@ -47,19 +51,87 @@ Public Class Form1
 
 
     Private Sub GunaButton1_Click(sender As Object, e As EventArgs) Handles GunaButton1.Click
-        Dim modulo As New CAProbarConexion
-        Dim respuestas As Boolean = modulo.verificarconexion
-        Dim email, pass As String
-        Dim count As Integer
-        email = txtCorreo.Text
-        pass = txtpass.Text
+        Try
 
-        If makeLogin.LoginUsuarios(email, pass) = 1 Then
-            frmprincipal.Show()
-            Me.Close()
+            Dim email, pass As String
+            Dim count As Integer
+            Dim resOk As DataTable
+            Dim vUserInfo As UserData = New UserData()
+            email = txtCorreo.Text
+            pass = txtpass.Text
+
+            resOk = makeLogin.user_login(email, pass)
+
+
+            If resOk.Rows.Count > 0 Then
+                For Each dr As System.Data.DataRow In resOk.Rows
+                    Dim vtryInt As Integer
+                    Integer.TryParse(dr("id_usuario").ToString(), vtryInt)
+                    vUserInfo.ID = vtryInt
+                    vUserInfo.Email = dr("correo").ToString()
+                    vUserInfo.Tipo = dr("tipo_usuario").ToString()
+
+
+                Next
+                ID = vUserInfo.ID
+                ModuleUser.Email = vUserInfo.Email.ToString()
+                Tipo = vUserInfo.Tipo.ToString()
+                Console.WriteLine(vUserInfo)
+                Dim fp As New frmprincipal()
+                fp.Show()
+            Else
+                MsgBox("Usuario y contraseña invalido")
+                count = +1
+            End If
+        Catch ex As Exception
+            Console.WriteLine(ex)
+        End Try
+
+    End Sub
+
+    Private Sub GunaButton2_Click(sender As Object, e As EventArgs) Handles GunaButton2.Click
+
+        Dim from, pass, messageBody As String
+        Dim rand As Random = New Random()
+        randomCode = (rand.Next(99999)).ToString()
+        Dim message As MailMessage = New MailMessage
+        Dim resOk As DataTable
+        txtmail = txtsendmail.Text
+        resOk = makeLogin.validarMail(txtmail)
+        If resOk.Rows.Count > 0 Then
+            from = "doggytechUTP@gmail.com"
+            pass = "techdog123"
+            messageBody = "Tu contraseña tempora es " + randomCode
+            message.To.Add(txtmail)
+            message.From = New MailAddress(from)
+            message.Body = messageBody
+            message.Subject = "Reestablecer Contraseña"
+            Dim smtp As SmtpClient = New SmtpClient("smtp.gmail.com")
+            smtp.EnableSsl = True
+            smtp.Port = 587
+            smtp.DeliveryMethod = smtp.DeliveryMethod.Network
+            smtp.Credentials = New NetworkCredential(from, pass)
+
+            Try
+
+                If reset.actualizar_contraseña(txtmail, randomCode) = 1 Then
+                    smtp.Send(message)
+
+                    MessageBox.Show("Verifique su bandeja de correo e inicie Sesion nuevamente")
+                    anima1.HideSync(p3)
+                    anima1.ShowSync(p2)
+                    l3.Text = "Authentication"
+                Else
+                    MsgBox("No se pudo enviar la contraseña temporal")
+                End If
+
+
+
+            Catch ex As Exception
+                MessageBox.Show(ex.Message)
+            End Try
         Else
-            MsgBox("Usuario y contraseña invalido")
-            count = +1
+            MsgBox("El correo que ha introducido no existe")
         End If
     End Sub
 End Class

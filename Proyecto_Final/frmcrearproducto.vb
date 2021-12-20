@@ -29,7 +29,7 @@ Public Class frmcrearproducto
         precio = Val(txtprecio.Text)
         cantidad = Val(Numeric1.Text)
         If (cantidad <= 5) Then
-            MessageBox.Show("No se puede ingresar un producto menor a 5 unidades")
+            MessageBox.Show("No se puede ingresar un producto menor a 6 unidades")
         ElseIf (cantidad > 5) Then
             Try
                 MessageBox.Show(insert.Ingresarproducto(nombre, precio, cantidad, descripcion))

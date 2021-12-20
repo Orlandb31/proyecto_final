@@ -7,6 +7,7 @@ Public Class CLogica
     Public sqlcom As SqlCommand
     Public procedimiento As New CrearProducto
     Public upCliente As New clientes
+
     Public Function Ingresarproducto(nombre As String, precio As Double, cantidad As Integer, Descripcion As String)
         sqlcom = procedimiento.insertarproducto(nombre, precio, cantidad, Descripcion)
         If sqlcom.ExecuteNonQuery() Then
@@ -26,22 +27,32 @@ Public Class CLogica
     End Function
 
     Public Function LoginUsuarios(email As String, pass As String)
+        Dim LoginInfo As DataTable
 
-
-        If LoginUser.user_login(email, pass) = 1 Then
-            Return 1
+        LoginInfo = LoginUser.user_login(email, pass)
+        If LoginInfo.Rows.Count > 0 Then
+            Return LoginInfo
         Else
             Return 0
         End If
 
     End Function
 
-    Public Function actualizar_cliente(id As Integer, nombre As String, apellido As String, email As String, telefono As String)
-        sqlcom = upCliente.Act_cliente(id, nombre, apellido, email, telefono)
+    Public Function actualizar_cliente(id As Integer, nombre As String, ubicacion As String, email As String, telefono As String)
+        sqlcom = upCliente.Act_cliente(id, nombre, ubicacion, email, telefono)
         If sqlcom.ExecuteNonQuery() Then
             Return "Cliente Actualizado Correctamente"
         Else
             Return "Error al Actualizar"
+        End If
+    End Function
+
+    Public Function actualizar_contraseña(email As String, pass As String)
+        sqlcom = LoginUser.updatePassword(email, pass)
+        If sqlcom.ExecuteNonQuery() Then
+            Return 1
+        Else
+            Return 0
         End If
     End Function
 

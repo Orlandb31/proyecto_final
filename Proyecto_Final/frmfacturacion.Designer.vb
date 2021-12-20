@@ -26,6 +26,9 @@ Partial Class frmfacturacion
         Me.facturacionpanel1 = New Guna.UI2.WinForms.Guna2Panel()
         Me.btnimprimir = New Guna.UI2.WinForms.Guna2Button()
         Me.facturacionpanel3 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.lbl_precio = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.nud_cantidades = New Guna.UI2.WinForms.Guna2NumericUpDown()
         Me.btnagregar = New Guna.UI2.WinForms.Guna2Button()
         Me.cbo_productos = New Guna.UI2.WinForms.Guna2ComboBox()
@@ -34,9 +37,7 @@ Partial Class frmfacturacion
         Me.btnseleccionar = New Guna.UI2.WinForms.Guna2Button()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.lbl_precio = New System.Windows.Forms.Label()
+        Me.panelFacturacion = New System.Windows.Forms.Panel()
         Me.facturacionpanel1.SuspendLayout()
         Me.facturacionpanel3.SuspendLayout()
         CType(Me.nud_cantidades, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -111,6 +112,36 @@ Partial Class frmfacturacion
         Me.facturacionpanel3.ShadowDecoration.Parent = Me.facturacionpanel3
         Me.facturacionpanel3.Size = New System.Drawing.Size(514, 227)
         Me.facturacionpanel3.TabIndex = 4
+        '
+        'lbl_precio
+        '
+        Me.lbl_precio.AutoSize = True
+        Me.lbl_precio.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_precio.Location = New System.Drawing.Point(417, 112)
+        Me.lbl_precio.Name = "lbl_precio"
+        Me.lbl_precio.Size = New System.Drawing.Size(67, 30)
+        Me.lbl_precio.TabIndex = 8
+        Me.lbl_precio.Text = "00.00"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(21, 112)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(74, 30)
+        Me.Label4.TabIndex = 7
+        Me.Label4.Text = "Precio"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(21, 61)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(210, 30)
+        Me.Label5.TabIndex = 6
+        Me.Label5.Text = "Cantidad disponible"
         '
         'nud_cantidades
         '
@@ -230,35 +261,13 @@ Partial Class frmfacturacion
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Facturacion"
         '
-        'Label5
+        'panelFacturacion
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(21, 61)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(210, 30)
-        Me.Label5.TabIndex = 6
-        Me.Label5.Text = "Cantidad disponible"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(21, 112)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(74, 30)
-        Me.Label4.TabIndex = 7
-        Me.Label4.Text = "Precio"
-        '
-        'lbl_precio
-        '
-        Me.lbl_precio.AutoSize = True
-        Me.lbl_precio.Font = New System.Drawing.Font("Segoe UI", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_precio.Location = New System.Drawing.Point(417, 112)
-        Me.lbl_precio.Name = "lbl_precio"
-        Me.lbl_precio.Size = New System.Drawing.Size(67, 30)
-        Me.lbl_precio.TabIndex = 8
-        Me.lbl_precio.Text = "00.00"
+        Me.panelFacturacion.Location = New System.Drawing.Point(13, 34)
+        Me.panelFacturacion.Name = "panelFacturacion"
+        Me.panelFacturacion.Size = New System.Drawing.Size(613, 442)
+        Me.panelFacturacion.TabIndex = 2
+        Me.panelFacturacion.Visible = False
         '
         'frmfacturacion
         '
@@ -266,6 +275,7 @@ Partial Class frmfacturacion
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(54, Byte), Integer), CType(CType(54, Byte), Integer), CType(CType(54, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(650, 500)
+        Me.Controls.Add(Me.panelFacturacion)
         Me.Controls.Add(Me.facturacionpanel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "frmfacturacion"
@@ -296,4 +306,5 @@ Partial Class frmfacturacion
     Friend WithEvents lbl_precio As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label5 As Label
+    Friend WithEvents panelFacturacion As Panel
 End Class

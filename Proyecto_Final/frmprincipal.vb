@@ -1,13 +1,50 @@
 ﻿Imports Modulo_Administracion
 Public Class frmprincipal
+    Dim userinfo As New UserData()
     Private Sub frmprincipal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        frmCrearUsuario.MdiParent = Me
-        frmCrearUsuario.WindowState = FormWindowState.Maximized
-        frmCrearUsuario.Show()
+
+        Try
+            If ModuleUser.Tipo.ToString().Equals("1") Then
+
+                frmCrearUsuario.MdiParent = Me
+                frmCrearUsuario.WindowState = FormWindowState.Maximized
+                frmCrearUsuario.Show()
+
+            ElseIf ModuleUser.Tipo.ToString().Equals("2") Then
+                CrearUsuarioToolStripMenuItem.Visible = False
+                CrearClientesToolStripMenuItem.Visible = False
+                FacturacionToolStripMenuItem.Visible = False
+                ModificarClientesToolStripMenuItem.Visible = False
+
+                frmcrearproducto.MdiParent = Me
+                frmcrearproducto.WindowState = FormWindowState.Maximized
+                frmcrearproducto.Show()
+
+            ElseIf ModuleUser.Tipo.ToString().Equals("3") Then
+                CrearUsuarioToolStripMenuItem.Visible = False
+                CrearInventarioToolStripMenuItem.Visible = False
+                CrearClientesToolStripMenuItem.Visible = True
+                FacturacionToolStripMenuItem.Visible = True
+                ModificarClientesToolStripMenuItem.Visible = True
+
+                frmCrearCliente.MdiParent = Me
+                frmCrearCliente.WindowState = FormWindowState.Maximized
+                frmCrearCliente.Show()
+
+            End If
+        Catch ex As Exception
+            Console.WriteLine(ex)
+            Me.Close()
+            Form1.Visible = True
+
+
+        End Try
+
+
 
     End Sub
 
-    Private Sub CrearToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CrearToolStripMenuItem.Click
+    Private Sub CrearToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CrearInventarioToolStripMenuItem.Click
         frmcrearproducto.MdiParent = Me
         frmcrearproducto.WindowState = FormWindowState.Maximized
         frmcrearproducto.Show()
@@ -16,10 +53,11 @@ Public Class frmprincipal
         frmfactura.Close()
         frmfacturacion.Close()
         frmCrearCliente.Close()
+        ModificarCliente.Close()
 
     End Sub
 
-   
+
     Private Sub CrearClientesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CrearClientesToolStripMenuItem.Click
         frmCrearCliente.MdiParent = Me
         frmCrearCliente.WindowState = FormWindowState.Maximized
@@ -28,6 +66,7 @@ Public Class frmprincipal
         frmCrearUsuario.Close()
         frmfactura.Close()
         frmfacturacion.Close()
+        ModificarCliente.Close()
 
     End Sub
 
@@ -38,11 +77,12 @@ Public Class frmprincipal
 
         frmCrearCliente.Close()
         frmCrearUsuario.Close()
+        ModificarCliente.Close()
         frmfactura.Close()
 
     End Sub
 
-    Private Sub CrearClienteToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CrearClienteToolStripMenuItem.Click
+    Private Sub CrearUsuarioToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CrearUsuarioToolStripMenuItem.Click
         frmCrearUsuario.MdiParent = Me
         frmCrearUsuario.WindowState = FormWindowState.Maximized
         frmCrearUsuario.Show()
@@ -51,7 +91,7 @@ Public Class frmprincipal
         frmfactura.Close()
         frmfacturacion.Close()
         frmCrearCliente.Close()
-
+        ModificarCliente.Close()
 
     End Sub
 

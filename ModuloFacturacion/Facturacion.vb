@@ -7,7 +7,7 @@ Public Class Facturacion
         con = conectar.conexion()
         Dim Sqlda As SqlDataAdapter
         Dim dtclientes As DataTable = New DataTable
-        Dim sqlQuery As String = "SELECT id_cliente,nombre FROM Clientes"
+        Dim sqlQuery As String = "SELECT id_clientes,nombre FROM Clientes"
         Sqlda = New SqlDataAdapter(sqlQuery, con)
         Sqlda.Fill(dtclientes)
         Return dtclientes
@@ -90,9 +90,9 @@ Public Class Facturacion
         con = conectar.conexion()
         Dim sqld As SqlDataAdapter
         Dim dtcantidad As DataTable = New DataTable
-        Dim sqlquery As String = "SELECT C.nombre, C.id_cliente, F.id_facturas,F.monto,C.numero_telefono,C.correo
+        Dim sqlquery As String = "SELECT C.nombre, C.id_clientes, F.id_facturas,F.monto,C.numero_telefono,C.correo
 FROM Facturas as F INNER JOIN Clientes as C
-ON F.id_cliente= C.id_cliente
+ON F.id_cliente= C.id_clientes
 WHERE F.id_facturas =" & id_facturas & ";"
         sqld = New SqlDataAdapter(sqlquery, con)
         sqld.Fill(dtcantidad)
@@ -103,10 +103,10 @@ WHERE F.id_facturas =" & id_facturas & ";"
         con = conectar.conexion()
         Dim sqld As SqlDataAdapter
         Dim dtcantidad As DataTable = New DataTable
-        Dim sqlquery As String = "SELECT C.id_producto,P.nombre_producto,C.Cantidad,P.precio
+        Dim sqlquery As String = "SELECT C.id_producto,P.nombre_producto,C.cantidad,P.precio
 FROM Producto as P INNER JOIN Compras as C
 ON P.id_producto= C.id_producto
-WHERE C.id_factura=" & id_facturas & ";"
+WHERE C.id_facturas=" & id_facturas & ";"
         sqld = New SqlDataAdapter(sqlquery, con)
         sqld.Fill(dtcantidad)
         Return dtcantidad

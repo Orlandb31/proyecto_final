@@ -29,7 +29,7 @@ Partial Class frmCrearCliente
         Me.txtnumerot = New System.Windows.Forms.TextBox()
         Me.txtemail = New System.Windows.Forms.TextBox()
         Me.txtubicacion = New System.Windows.Forms.TextBox()
-        Me.txtnombree = New System.Windows.Forms.TextBox()
+        Me.txtnombre = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -47,7 +47,7 @@ Partial Class frmCrearCliente
         Me.Guna2Panel1.Controls.Add(Me.txtnumerot)
         Me.Guna2Panel1.Controls.Add(Me.txtemail)
         Me.Guna2Panel1.Controls.Add(Me.txtubicacion)
-        Me.Guna2Panel1.Controls.Add(Me.txtnombree)
+        Me.Guna2Panel1.Controls.Add(Me.txtnombre)
         Me.Guna2Panel1.Controls.Add(Me.Label5)
         Me.Guna2Panel1.Controls.Add(Me.Label4)
         Me.Guna2Panel1.Controls.Add(Me.Label3)
@@ -127,14 +127,14 @@ Partial Class frmCrearCliente
         Me.txtubicacion.Size = New System.Drawing.Size(263, 20)
         Me.txtubicacion.TabIndex = 6
         '
-        'txtnombree
+        'txtnombre
         '
-        Me.txtnombree.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.txtnombree.CausesValidation = False
-        Me.txtnombree.Location = New System.Drawing.Point(258, 154)
-        Me.txtnombree.Name = "txtnombree"
-        Me.txtnombree.Size = New System.Drawing.Size(263, 20)
-        Me.txtnombree.TabIndex = 5
+        Me.txtnombre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtnombre.CausesValidation = False
+        Me.txtnombre.Location = New System.Drawing.Point(258, 154)
+        Me.txtnombre.Name = "txtnombre"
+        Me.txtnombre.Size = New System.Drawing.Size(263, 20)
+        Me.txtnombre.TabIndex = 5
         '
         'Label5
         '
@@ -191,7 +191,7 @@ Partial Class frmCrearCliente
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Agregar un Nuevo Cliente"
         '
-        'frmCrearC
+        'frmCrearCliente
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -199,7 +199,7 @@ Partial Class frmCrearCliente
         Me.ClientSize = New System.Drawing.Size(650, 500)
         Me.Controls.Add(Me.Guna2Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Name = "frmCrearC"
+        Me.Name = "frmCrearCliente"
         Me.Text = "frmCrearC"
         Me.Guna2Panel1.ResumeLayout(False)
         Me.Guna2Panel1.PerformLayout()
@@ -212,7 +212,7 @@ Partial Class frmCrearCliente
     Friend WithEvents txtnumerot As TextBox
     Friend WithEvents txtemail As TextBox
     Friend WithEvents txtubicacion As TextBox
-    Friend WithEvents txtnombree As TextBox
+    Friend WithEvents txtnombre As TextBox
     Friend WithEvents Label5 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label

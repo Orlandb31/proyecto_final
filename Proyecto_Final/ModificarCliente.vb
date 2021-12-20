@@ -7,6 +7,7 @@ Public Class ModificarCliente
     Private id As Integer
 
     Private Sub btnBuscar_Click(sender As Object, e As EventArgs) Handles btnBuscar.Click
+        btn_elegir.Enabled = True
         Dim cliente As New clientes
         Dim conectar As New CAConexion
         Dim dtclientes As New DataTable
@@ -49,7 +50,7 @@ Public Class ModificarCliente
 
     Private Sub btn_Modificar_Click(sender As Object, e As EventArgs) Handles btn_Modificar.Click
         Dim nombre
-        Dim apellido
+        Dim ubicacion
         Dim correo
         Dim numTel
         Dim cliente As New CLogica
@@ -57,16 +58,18 @@ Public Class ModificarCliente
 
 
         nombre = txtNombre.Text
-        apellido = txtApellido.Text
+        ubicacion = txtApellido.Text
         correo = txtemail.Text
         numTel = txtnumerot.Text
 
 
-        If String.IsNullOrEmpty(nombre) Or String.IsNullOrEmpty(apellido) Or String.IsNullOrEmpty(correo) Or String.IsNullOrEmpty(numTel) Then
+        If String.IsNullOrEmpty(nombre) Or String.IsNullOrEmpty(ubicacion) Or String.IsNullOrEmpty(correo) Or String.IsNullOrEmpty(numTel) Then
             MsgBox("Complete todos los campos del Formulario")
         Else
             Try
-                MessageBox.Show(cliente.actualizar_cliente(cbox_clientes.SelectedValue, nombre, apellido, correo, numTel))
+                MessageBox.Show(cliente.actualizar_cliente(cbox_clientes.SelectedValue, nombre, ubicacion, correo, numTel))
+                cbox_clientes.Refresh()
+                txtNombreBuscar.Text = txtNombre.Text
                 txtNombre.ResetText()
                 txtApellido.ResetText()
                 txtemail.ResetText()
